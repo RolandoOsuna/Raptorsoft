@@ -7,10 +7,19 @@
 
 }
 .bg-seccion{
-    background-color: #1e3257;
+    background-color: #323A60 ;
     margin-right: 0.1px;
+}
+
+.titulo{
+    color: #58A6B0;
+}
+
+.texto{
+    color: #914623 ;
 }
 
 .arial{
     font-family:Arial, Helvetica, sans-serif;
 }
+
