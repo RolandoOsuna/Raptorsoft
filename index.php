@@ -193,9 +193,128 @@
             </div>
         </div>
             
-        
+    </main>    
 
-    </main>
+    <section class="bg" >
+        <div class="row p-5 mb-5" style="margin-right: 0.1px">
+            <div class="col-12 align-self-center px-5">
+                <p class="text-center  fs-4">
+                    Añade tus proyectos para que tus clientes lo conozcan desde tu sitio web. <br>
+                    Realiza contratos fácilmente rellenando los recuadros con los datos marcados, lleva un mejor control y lo tendrás disponible en todo momento.
+                </p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="container">
+        <div class="row">
+            <div class="col-12">
+                <p class="text-center titulo display-6">Todas las plataformas, <br> Todos los dispositivos <strong>Sin problemas.</strong></p>
+                
+            </div>
+        </div>
+<!-- TABLA -->
+        <div class="row align-items-center">
+            <div class="col-12">
+                <div class="table-responsive text-center">
+                    <table class="table table-striped table-hover table-sm border-bordered">
+                        <thead>
+                            <tr class="encabezado-tabla text-white fs-md-5" >
+                                <th class="fw-normal">
+                                    <p class="">
+                                        <span class="text-info ">Emprendedor</span><br>
+                                        <span class="text-white ">$699.00</span><br> 
+                                        <span class="text-white-50">MXM al MES</span><br>
+                                        <span class="text-muted">(pago mensual)</span>
+                                    </p>
+                                </th>
+                                <th class="fw-normal">
+                                    <p class="">
+                                        <span class="text-info ">Negocios</span><br>
+                                        <span class="text-white ">$999.00</span><br> 
+                                        <span class="text-white-50">MXM al MES</span><br>
+                                        <span class="text-muted">(pago mensual)</span>
+                                    </p>
+                                </th>
+                                <th class="fw-normal">
+                                    <p class="">
+                                        <span class="text-info ">Profesional</span><br>
+                                        <span class="text-white ">$1,999.00</span><br> 
+                                        <span class="text-white-50">MXM al MES</span><br>
+                                        <span class="text-muted">(pago mensual)</span>
+                                    </p>
+                                </th>
+                                <th class=" pb-5 pb-md-0">
+                                    <p>
+                                        <img  src="/IMG/Raptor-Navbar.png" width="20%" alt="">
+                                    </p>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr> 
+                                <td><img class="py-2" src="/IMG/check2-circle.svg" width="15%" alt=""></td>
+                                <td><img class="py-2" src="/IMG/check2-circle.svg" width="15%" alt=""></td>
+                                <td><img class="py-2" src="/IMG/check2-circle.svg" width="15%" alt=""></td>
+                                <td class="arial pt-3 pt-2">Usuarios Ilimitados</td>
+                            </tr>
+                            <tr>
+                                <td><img class="py-2" src="/IMG/check2-circle.svg" width="15%" alt=""></td>
+                                <td><img class="py-2" src="/IMG/check2-circle.svg" width="15%" alt=""></td>
+                                <td><img class="py-2" src="/IMG/check2-circle.svg" width="15%" alt=""></td>
+                                <td class="arial pt-3">Gestor Inmobiliario</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td><img class="py-2" src="/IMG/check2-circle.svg" width="15%" alt=""></td>
+                                <td><img class="py-2" src="/IMG/check2-circle.svg" width="15%" alt=""></td>
+                                <td class="arial pt-3">Gestor de Prospectos</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td><img class="py-2" src="/IMG/check2-circle.svg" width="15%" alt=""></td>
+                                <td><img class="py-2" src="/IMG/check2-circle.svg" width="15%" alt=""></td>
+                                <td class="arial pt-3">Gestor de Estatus</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td><img class="py-2" src="/IMG/check2-circle.svg" width="15%" alt=""></td>
+                                <td class="arial pt-3">Gestor de Contratos</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td><img class="py-2" src="/IMG/check2-circle.svg" width="15%" alt=""></td>
+                                <td class="arial pt-3">Gestor de Proyectos</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td><img class="py-2" src="/IMG/check2-circle.svg" width="15%" alt=""></td>
+                                <td class="arial pt-3">Gestor de Correos</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td><img class="py-2" src="/IMG/check2-circle.svg" width="15%" alt=""></td>
+                                <td class="arial pt-3">Futuras Aduciones </td>
+                            </tr>
+                            <tr>
+                                <td class="fst-italic pt-2">8 GB</td>
+                                <td class="fst-italic pt-2">16 GB</td>
+                                <td class="fst-italic pt-2">32 GB</td>
+                                <td class="arial pt-2">Hosting</td>
+                            </tr>
+                        </tbody>
+
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+
 
 <!-- FOOTER -->
 <?php require('footer.php') ?>

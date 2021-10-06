@@ -3,18 +3,13 @@
     background-image: url(/IMG/Raptor-header.jpg);
     background-position:center center;
     background-size: cover;
-    height: 42rem;
-
+    height: 100vh;
 }
+
 .bg-seccion{
     background-color: #323A60 ;
     margin-right: 0.1px;
 }
-.bg-navbar{
-    background-color: #323A60 ;
-
-}
-
 .titulo{
     color: #58A6B0;
 }
@@ -36,4 +31,16 @@
     background-color: #E5BE51 ;
     box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
 }
+
+.encabezado-tabla{
+    --bs-table-bg: #323a60;
+    color: #E5BE51 ;
+}
+
+.bg{
+    background-color: #914623 ;
+    color: #E5BE51;
+}
+
+
 
