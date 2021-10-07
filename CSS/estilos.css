@@ -6,6 +6,11 @@
     height: 100vh;
 }
 
+.bg-navbar{
+    background-color: #323A60 ;
+
+}
+
 .bg-seccion{
     background-color: #323A60 ;
     margin-right: 0.1px;
