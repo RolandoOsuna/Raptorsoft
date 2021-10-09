@@ -16,29 +16,31 @@
         <nav class="row align-items-start justify-content-end pt-3" style="margin-right: 0.1px; margin-left: 0.1px;">
             <div class="col-12 col-md-6 col-lg-3 border-none d-flex  me-lg-1 rounded-pill shadow bg-light justify-content-around">
                 <a href="" class="text-decoration-none link-dark fs-5 titulo " >Nosotros</a> 
-                <a href="" class="text-decoration-none link-dark fs-5 titulo" >Servicios</a>
+                <a href="Servicios.php" class="text-decoration-none link-dark fs-5 titulo" >Servicios</a>
                 <a href="" class="text-decoration-none link-dark fs-5 titulo " >Contacto</a>
             </div>
         </nav>
     </header>
 
 <!-- SECCTION -->
-    <section class="row  bg-seccion" >
+    <section class="row  bg-seccion">
         <div class="col-12 col-md-6 col-lg-8">
             <img class="img-fluid" src="/IMG/Seccion.jpg"  alt="">
         </div>
         <div class="col-12 col-md-6 col-lg-4 justify-content-end text-white  ">
-            <p class="display-3 text-center titulo " style="letter-spacing: 10px;">Raptor</p>
-            <p class="fs-4 text-capitalize container" style="color: #E5BE51 ;">¡Accede a la automatización de tu negocio!</p>
-            <p class="fs-5 container arial" >Visualiza los movimientos realizados de:</p> 
-            <ul class="ps-5 lh-5 fs-5 arial">
-                <li >Ventas</li>
-                <li >Pagos</li>
-                <li >Rendimientos</li>
-                <li >Productos más vendidos</li>
-                <li >Ventas de vendedores</li>
-                <li >Descarga un reporte con la venta de un producto</li>
-            </ul>
+            <a class="text-decoration-none text-white" href="Servicios.php">
+                <p class="display-3 text-center titulo " style="letter-spacing: 10px;">Raptor</p>
+                <p class="fs-4 text-capitalize container" style="color: #E5BE51 ;">¡Accede a la automatización de tu negocio!</p>
+                <p class="fs-5 container arial" >Visualiza los movimientos realizados de:</p> 
+                <ul class="ps-5 lh-5 fs-5 arial">
+                    <li >Ventas</li>
+                    <li >Pagos</li>
+                    <li >Rendimientos</li>
+                    <li >Productos más vendidos</li>
+                    <li >Ventas de vendedores</li>
+                    <li >Descarga un reporte con la venta de un producto</li>
+                </ul>
+            </a>
         </div>
     </section>
 
@@ -46,7 +48,7 @@
     <main class="container">
         <div class="row">
             <div class="col-12 my-3">
-                <p class="h1 text-center titulo">Productos y Versiones</p>
+                <p class="h1 text-center titulo">ERP Raptor</p>
                 <p class="text-center texto fs-5">Utiliza nuestras soluciones de software en la nube ya que es mucho más fácil gracias a nuestra lista de integraciones, sácale el mayor partido a las aplicaciones y a los servicios que te ayudan a hacer crecer a tu negocio.</p>
             </div>
         </div>
@@ -99,6 +101,8 @@
                 </div>
             </div>
         </div>-->
+
+        <!-- ACORDEON -->
         <div class="accordion mb-5" id="accordionPanelsStayOpenExample">
             <div class="accordion-item">
                 <h2 class="accordion-header" id="panelsStayOpen-headingOne">
@@ -122,7 +126,8 @@
                                 <img class="img-fluid " src="/IMG/Raptor-card.jpg" width="80%" alt="">
                             </div>
                             <div class="col-12 col-md-6 col-lg-9 ">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, voluptate? Blanditiis quaerat vitae repellendus iure, quod quia reiciendis minus ab. Nesciunt expedita incidunt consectetur omnis repudiandae dolorum quasi quia repellat.</p>
+                                <h3>Raptor</h3>
+                                <p>Versión completa</p>
                             </div>
                         </div>
                         <div class="col-12 text-end">
@@ -146,7 +151,7 @@
                 </h2>
                 <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
                     <div class="accordion-body">
-                        <div class="row align-items-center">
+                        <div class="row">
                             <div class="col-12 text-center d-block d-md-none ">
                                 <img class="img-fluid " src="/IMG/Cremeria/Cremeria-card.jpg" width="80%" alt="">
                             </div>
@@ -154,11 +159,12 @@
                                 <img class="img-fluid " src="/IMG/Cremeria/Cremeria-card.jpg" width="100%" alt="">
                             </div>
                             <div class="col-12 col-md-6 col-lg-9 ">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, voluptate? Blanditiis quaerat vitae repellendus iure, quod quia reiciendis minus ab. Nesciunt expedita incidunt consectetur omnis repudiandae dolorum quasi quia repellat.</p>
+                                <h3>Cremería</h3>
+                                <p>Aplicado en negocio de cremería</p>
                             </div>
                         </div>
                         <div class="col-12 text-end">
-                            <a href="Descripcion.php" class="text-decoration-none text-muted">Ver mas</a>
+                            <a href="Cremeria.php" class="text-decoration-none text-muted">Ver mas</a>
                         </div>
                     </div>
                 </div>
@@ -175,7 +181,7 @@
                     </button>
                 </h2>
                 <div id="panelsStayOpen-collapseThree" class="py-3 accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
-                    <div class="row align-items-center ">
+                    <div class="row">
                         <div class="col-12 text-center d-block d-md-none ">
                             <img class="img-fluid " src="/IMG/Abarrotes/Abarrotes-card2.jpeg" width="80%" alt="">
                         </div>
@@ -183,7 +189,8 @@
                             <img class="img-fluid " src="/IMG/Abarrotes/Abarrotes-card2.jpeg" width="100%" alt="">
                         </div>
                         <div class="col-12 col-md-6 col-lg-9 ">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, voluptate? Blanditiis quaerat vitae repellendus iure, quod quia reiciendis minus ab. Nesciunt expedita incidunt consectetur omnis repudiandae dolorum quasi quia repellat.</p>
+                            <h3>Abarrotes</h3>
+                            <p>Versión aplicada en tiendas de abarrotes</p>
                         </div>
                         <div class="col-12 text-end pe-4">
                             <a href="Descripcion.php" class="text-decoration-none text-muted">Ver mas</a>
@@ -195,7 +202,7 @@
             
     </main>    
 
-    <section class="bg" >
+    <section class="bg">
         <div class="row p-5 mb-5" style="margin-right: 0.1px">
             <div class="col-12 align-self-center px-5">
                 <p class="text-center  fs-4">
@@ -210,15 +217,14 @@
         <div class="row">
             <div class="col-12">
                 <p class="text-center titulo display-6">Todas las plataformas, <br> Todos los dispositivos <strong>Sin problemas.</strong></p>
-                
             </div>
         </div>
-<!-- TABLA -->
-        <div class="row align-items-center justify-content-center">
-            <div class="col-12 ">
+        <!-- TABLA -->
+        <div class="row align-items-center justify-content-center mb-4">
+            <div class="col-12">
                 <div class="table-responsive text-center">
-                    <table class="table table-striped table-hover table-sm border-bordered">
-                        <thead>
+                    <table class="table table-sm table-borderless">
+                        <thead class="shadow">
                             <tr class="encabezado-tabla text-white fs-md-5" >
                                 <th class="fw-normal">
                                     <p class="">
@@ -230,7 +236,7 @@
                                 </th>
                                 <th class="fw-normal">
                                     <p class="">
-                                        <span class="text-info ">Aficionado intermedio</span><br>
+                                        <span class="text-info ">Aficionado <br> intermedio</span><br>
                                         <span class="text-white ">$699.00</span><br> 
                                         <span class="text-white-50">MXM al MES</span><br>
                                         <span class="text-muted">(pago mensual)</span>
@@ -238,42 +244,42 @@
                                 </th>
                                 <th class="fw-normal">
                                     <p class="">
-                                        <span class="text-info ">Aficionado avanzado</span><br>
+                                        <span class="text-info ">Aficionado <br> avanzado</span><br>
                                         <span class="text-white ">$1,299.00</span><br> 
                                         <span class="text-white-50">MXM al MES</span><br>
                                         <span class="text-muted">(pago mensual)</span>
                                     </p>
                                 </th>
-                                <th class="pb-5 pb-sm-4 pb-lg-4 ">
+                                <th class="pb-5 pb-sm-5 pb-lg-5 ">
                                     <img src="/IMG/Raptor-Navbar.png" width="80px" alt="">
                                 </th>
                             </tr>
                         </thead>
 
-                        <tbody>
+                        <tbody class="shadow">
                             <tr>
-                                <td class="p-3"><img class="" src="/IMG/check2-circle.svg" width="25px" alt=""></td>
-                                <td class="p-3"><img class="" src="/IMG/check2-circle.svg" width="25px" alt=""></td>
-                                <td class="p-3"><img class="" src="/IMG/check2-circle.svg" width="25px" alt=""></td>
-                                <td class=" "><img src="/IMG/people-fill.svg"  width="50px" alt="Usuarios Ilimitados"><!--Usuarios Ilimitados--></td>
+                                <td class="table-success p-3"><img class="" src="/IMG/check2-circle.svg" width="25px" alt=""></td>
+                                <td class="table-danger p-3"><img class="" src="/IMG/check2-circle.svg" width="25px" alt=""></td>
+                                <td class="table-warning p-3"><img class="" src="/IMG/check2-circle.svg" width="25px" alt=""></td>
+                                <td class="table-primary"><img src="/IMG/people-fill.svg"  width="50px" alt="Usuarios Ilimitados"><!--Usuarios Ilimitados--></td>
                             </tr>
                             <tr>
-                                <td class="p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
-                                <td class="p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
-                                <td class="p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
-                                <td class=" "><img src="/IMG/house-door-fill.svg"  width="50px" alt=""><!--Gestor Inmobiliario--></td>
+                                <td class="table-success p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
+                                <td class="table-danger p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
+                                <td class="table-warning p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
+                                <td class="table-primary"><img src="/IMG/house-door-fill.svg"  width="50px" alt=""><!--Gestor Inmobiliario--></td>
                             </tr>
                             <tr>
-                                <td></td>
-                                <td class="p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
-                                <td class="p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
-                                <td class=" "><img src="/IMG/card-text.svg" width="50px" alt=""><!--Gestor de Prospectos--></td>
+                                <td class="table-success"></td>
+                                <td class="table-danger p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
+                                <td class="table-warning p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
+                                <td class="table-primary"><img src="/IMG/card-text.svg" width="50px" alt=""><!--Gestor de Prospectos--></td>
                             </tr>
                             <tr>
-                                <td></td>
-                                <td class="p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
-                                <td class="p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
-                                <td class=" "><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tools" width="50px" height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <td class="table-success"></td>
+                                <td class="table-danger p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
+                                <td class="table-warning p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
+                                <td class="table-primary"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tools" width="50px" height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                         <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                                         <path d="M3 21h4l13 -13a1.5 1.5 0 0 0 -4 -4l-13 13v4" />
                                         <line x1="14.5" y1="5.5" x2="18.5" y2="9.5" />
@@ -284,28 +290,28 @@
                                     </svg><!--Gestor de Estatus--></td>
                             </tr>
                             <tr>
-                                <td></td>
-                                <td></td>
-                                <td class="p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
-                                <td class=" "><img src="/IMG/1976101.svg" width="55px" alt=""><!--Gestor de Contratos--></td>
+                                <td class="table-success"></td>
+                                <td class="table-danger"></td>
+                                <td class="table-warning p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
+                                <td class="table-primary"><img src="/IMG/1976101.svg" width="55px" alt=""><!--Gestor de Contratos--></td>
                             </tr>
                             <tr>
-                                <td></td>
-                                <td></td>
-                                <td class="p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
-                                <td class=" "><img src="/IMG/journal-text.svg" width="50px" alt=""><!--Gestor de Proyectos--></td>
+                                <td class="table-success"></td>
+                                <td class="table-danger"></td>
+                                <td class="table-warning p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
+                                <td class="table-primary"><img src="/IMG/journal-text.svg" width="50px" alt=""><!--Gestor de Proyectos--></td>
                             </tr>
                             <tr>
-                                <td></td>
-                                <td></td>
-                                <td class="p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
-                                <td class=" "><img src="/IMG/envelope-fill.svg" width="50px" alt=""><!--Gestor de Correos--></td>
+                                <td class="table-success"></td>
+                                <td class="table-danger"></td>
+                                <td class="table-warning p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
+                                <td class="table-primary"><img src="/IMG/envelope-fill.svg" width="50px" alt=""><!--Gestor de Correos--></td>
                             </tr>
                             <tr>
-                                <td></td>
-                                <td></td>
-                                <td class="p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
-                                <td class=" ">
+                                <td class="table-success"></td>
+                                <td class="table-danger"></td>
+                                <td class="table-warning p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
+                                <td class="table-primary">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-database-export" width="48" height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                         <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                                         <ellipse cx="12" cy="6" rx="8" ry="3" />
@@ -315,13 +321,12 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td class="fst-italic p-3">8 GB</td>
-                                <td class="fst-italic p-3">16 GB</td>
-                                <td class="fst-italic p-3">32 GB</td>
-                                <td class=" "><img src="/IMG/cloud-plus-fill.svg" width="50px" alt=""><!--Hosting--></td>
+                                <td class="fst-italic table-success p-3">8 GB</td>
+                                <td class="fst-italic table-danger p-3">16 GB</td>
+                                <td class="fst-italic table-warning p-3">32 GB</td>
+                                <td class="table-primary"><img src="/IMG/cloud-plus-fill.svg" width="50px" alt=""><!--Hosting--></td>
                             </tr>
                         </tbody>
-
                     </table>
                 </div>
             </div>
