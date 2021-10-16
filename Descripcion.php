@@ -82,8 +82,53 @@
     
     <section class="container">
         <div class="row">
-            <div class="col-12" style="height: 400px;">
-
+            <div class="col-12">
+        <!-- CARDS -->
+                <div class="row justify-content-center">
+                    <div class="col-8 card pt-3">
+                        <div class="row">
+                            <div class="col-9">
+                                <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis tempore obcaecati, aliquid odio ipsum ad accusantium dolores aspernatur ut, doloremque rerum consequuntur ex rem. Voluptate mollitia a hic deleniti quod?</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center pt-2">
+                    <div class="col-8 card pt-3">
+                        <div class="row">
+                            <div class="col-3 ">
+                                <img src="/IMG/Raptor-card.jpg" class="img-fluid float-start" width="100%" alt="">         
+                            </div>
+                            <div class="col-9">
+                                <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis tempore obcaecati, aliquid odio ipsum ad accusantium dolores aspernatur ut, doloremque rerum consequuntur ex rem. Voluptate mollitia a hic deleniti quod?</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>       
+                <div class="row justify-content-center pt-2">
+                    <div class="col-8 card pt-3">
+                        <div class="row">
+                            <div class="col-3 ">
+                                <img src="/IMG/Raptor-card.jpg" class="img-fluid float-start" width="100%" alt="">         
+                            </div>
+                            <div class="col-9">
+                                <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis tempore obcaecati, aliquid odio ipsum ad accusantium dolores aspernatur ut, doloremque rerum consequuntur ex rem. Voluptate mollitia a hic deleniti quod?</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

@@ -237,7 +237,7 @@
                                 <th class="fw-normal">
                                     <p class="">
                                         <span class="text-info ">Aficionado <br> intermedio</span><br>
-                                        <span class="text-white ">$699.00</span><br> 
+                                        <span class="text-white ">$599.00</span><br> 
                                         <span class="text-white-50">MXM al MES</span><br>
                                         <span class="text-muted">(pago mensual)</span>
                                     </p>
@@ -245,7 +245,7 @@
                                 <th class="fw-normal">
                                     <p class="">
                                         <span class="text-info ">Aficionado <br> avanzado</span><br>
-                                        <span class="text-white ">$1,299.00</span><br> 
+                                        <span class="text-white ">$999.00</span><br> 
                                         <span class="text-white-50">MXM al MES</span><br>
                                         <span class="text-muted">(pago mensual)</span>
                                     </p>
@@ -256,7 +256,7 @@
                             </tr>
                         </thead>
 
-                        <tbody class="shadow">
+                        <tbody class="">
                             <tr>
                                 <td class="table-success p-3"><img class="" src="/IMG/check2-circle.svg" width="25px" alt=""></td>
                                 <td class="table-danger p-3"><img class="" src="/IMG/check2-circle.svg" width="25px" alt=""></td>
@@ -325,6 +325,24 @@
                                 <td class="fst-italic table-danger p-3">16 GB</td>
                                 <td class="fst-italic table-warning p-3">32 GB</td>
                                 <td class="table-primary"><img src="/IMG/cloud-plus-fill.svg" width="50px" alt=""><!--Hosting--></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="d-grid gap-2">
+                                        <button type="button" class="btn btn-warning">Contratar Ahora</button>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="d-grid gap-2">
+                                        <button type="button" class="btn btn-warning">Contratar Ahora</button>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="d-grid gap-2">
+                                        <button type="button" class="btn btn-warning">Contratar Ahora</button>
+                                    </div>
+                                </td>
+
                             </tr>
                         </tbody>
                     </table>
