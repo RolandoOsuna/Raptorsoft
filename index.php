@@ -15,8 +15,8 @@
 <!-- NAVBAR -->
         <nav class="row align-items-start justify-content-end pt-3" style="margin-right: 0.1px; margin-left: 0.1px;">
             <div class="col-12 col-md-6 col-lg-3 border-none d-flex  me-lg-1 rounded-pill shadow bg-light justify-content-around">
-                <a href="" class="text-decoration-none link-dark fs-5 titulo " >Nosotros</a> 
-                <a href="Servicios.php" class="text-decoration-none link-dark fs-5 titulo" >Servicios</a>
+                <a href="" class="text-decoration-none link-dark fs-5 titulo " >ERP</a> 
+                <a href="CRM.php" class="text-decoration-none link-dark fs-5 titulo" >CRM</a>
                 <a href="" class="text-decoration-none link-dark fs-5 titulo " >Contacto</a>
             </div>
         </nav>
@@ -28,7 +28,7 @@
             <img class="img-fluid" src="/IMG/Seccion.jpg"  alt="">
         </div>
         <div class="col-12 col-md-6 col-lg-4 justify-content-end text-white  ">
-            <a class="text-decoration-none text-white" href="Servicios.php">
+            <a class="text-decoration-none text-white" href="CRM.php">
                 <p class="display-3 text-center titulo " style="letter-spacing: 10px;">Raptor</p>
                 <p class="fs-4 text-capitalize container" style="color: #E5BE51 ;">¡Accede a la automatización de tu negocio!</p>
                 <p class="fs-5 container arial" >Visualiza los movimientos realizados de:</p> 
@@ -348,6 +348,135 @@
                     </table>
                 </div>
             </div>
+        </div>
+    </section>
+
+        <!-- CARDS -->
+    <section >
+        <div class="row row-cols-1 row-cols-md-3 g-4 bg-seccion px-5 pb-3">
+            <div class="col">
+                <div class="card bg-success shadow">
+                    <div class="card-header">
+                        <h3 class="card-title text-center text-light">Jugador Casual</h3>
+                    </div>
+                    <div class="card-body text-white pb-0">
+                        <h4 class="text-center">$299.00</h4>
+                        <p class="text-center"><span class="text-white-50">MXM al MES</span> <br><span class="text-black-50">(pago mensual)</span></p>
+                        <p class="fs-5">Ideal para iniciar y posicionar tu proyecto personal</p>
+                        <p class="text-light"><img class="" src="/IMG/people-fill.svg"width="8%" alt="Usuarios Ilimitados"> <span class="pt-5 ps-3">Usuarios Ilimitados</span> </p>
+                        <hr>
+                        <p class="text-light"><img class="pb-1" src="/IMG/house-door-fill.svg"  width="8%" alt=""><span class="pt-5 ps-3">Gestor Inmobiliario</span></p>
+                        <hr>
+                        <p class="text-light"><img class="pb-1" src="/IMG/cloud-plus-fill.svg" width="8%" alt=""><span class="pt-5 ps-3">Hosting: <i>8GB</i></span></p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col">
+                <div class="card bg-danger shadow">
+                    <div class="card-header">
+                        <h3 class="card-title text-center text-light">Aficionado Intermedio</h3>
+                    </div>
+                    <div class="card-body text-white pb-0">
+                        <h4 class="text-center">$599.00</h4>
+                        <p class="text-center"><span class="text-white-50">MXM al MES</span> <br><span class="text-black-50">(pago mensual)</span></p>
+                        <p class="fs-5">Aumenta tu almacenamiento y obtén atención telefónica por expertos</p>
+                        <p class="text-light">
+                            <img class="" src="/IMG/people-fill.svg"width="8%" alt="Usuarios Ilimitados"> 
+                            <span class="pt-5 ps-3">Usuarios Ilimitados</span> 
+                        </p>
+                        <hr>
+                        <p class="text-light">
+                            <img class="pb-1" src="/IMG/house-door-fill.svg"  width="8%" alt="">
+                            <span class="pt-5 ps-3">Gestor Inmobiliario</span>
+                        </p>
+                        <hr>
+                        <p class="text-light"><img src="/IMG/card-text.svg" width="8%" alt="">
+                            <span class="pt-5 ps-3">Gestor de Prospectos</span>
+                        </p>
+                        <hr>
+                        <p class="text-light"> 
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tools" width="11%" height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <path d="M3 21h4l13 -13a1.5 1.5 0 0 0 -4 -4l-13 13v4" />
+                                <line x1="14.5" y1="5.5" x2="18.5" y2="9.5" />
+                                <polyline points="12 8 7 3 3 7 8 12" />
+                                <line x1="7" y1="8" x2="5.5" y2="9.5" />
+                                <polyline points="16 12 21 17 17 21 12 16" />
+                                <line x1="16" y1="17" x2="14.5" y2="18.5" />
+                            </svg>
+                            <span class="pt-5 ps-2">Gestor de Estatus</span>
+                        </p>
+                        <hr>
+                        <p class="text-light">
+                            <img class="pb-1" src="/IMG/cloud-plus-fill.svg" width="8%" alt="">
+                            <span class="pt-5 ps-3">Hosting: <i>8GB</i></span>
+                        </p>
+                    
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card bg-warning shadow">
+                    <div class="card-header">
+                        <h3 class="card-title text-center text-dark">Aficionado Avanzado</h3>
+                    </div>
+                    <div class="card-body text-dark pb-0">
+                        <h4 class="text-center">$599.00</h4>
+                        <p class="text-center"><span class="text-black-50">MXM al MES</span> <br><span class="text-white-50">(pago mensual)</span></p>
+                        <p class="fs-5">Crece con nosotros y lleva el éxito de tu negocio al siguiente nivel.</p>
+                        <p class="text-dark">
+                            <img class="" src="/IMG/people-fill.svg"width="8%" alt="Usuarios Ilimitados"> 
+                            <span class="pt-5 ps-3">Usuarios Ilimitados</span> 
+                        </p>
+                        <hr>
+                        <p class="text-dark">
+                            <img class="pb-1" src="/IMG/house-door-fill.svg"  width="8%" alt="">
+                            <span class="pt-5 ps-3">Gestor Inmobiliario</span>
+                        </p>
+                        <hr>
+                        <p class="text-dark"><img src="/IMG/card-text.svg" width="8%" alt="">
+                            <span class="pt-5 ps-3">Gestor de Prospectos</span>
+                        </p>
+                        <hr>
+                        <p class="text-dark"> 
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tools" width="11%" height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <path d="M3 21h4l13 -13a1.5 1.5 0 0 0 -4 -4l-13 13v4" />
+                                <line x1="14.5" y1="5.5" x2="18.5" y2="9.5" />
+                                <polyline points="12 8 7 3 3 7 8 12" />
+                                <line x1="7" y1="8" x2="5.5" y2="9.5" />
+                                <polyline points="16 12 21 17 17 21 12 16" />
+                                <line x1="16" y1="17" x2="14.5" y2="18.5" />
+                            </svg>
+                            <span class="pt-5 ps-2">Gestor de Estatus</span>
+                        </p>
+                        <hr>
+                        <p class="text-dark">
+                            <img src="/IMG/1976101.svg" width="11%" alt="">
+                            <span class="pt-5 ps-2">Gestor de Contratos</span>
+                        </p>
+                        <hr>
+                        <p class="text-dark">
+                            <img src="/IMG/journal-text.svg" width="8%" alt="">
+                            <span class="pt-5 ps-3">Gestor de Proyectos</span>
+                        </p>
+                        <hr>
+                        <p class="text-dark">
+                            <img src="/IMG/envelope-fill.svg" width="8%" alt="">
+                            <span class="pt-5 ps-3">Gestor de Correos</span>
+                        </p>
+                        <hr>
+                        <p class="text-dark">
+                            <img class="pb-1" src="/IMG/cloud-plus-fill.svg" width="8%" alt="">
+                            <span class="pt-5 ps-3">Hosting: <i>8GB</i></span>
+                        </p>
+                    
+                    </div>
+                </div>
+            </div>
+            
         </div>
     </section>
    
