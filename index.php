@@ -15,7 +15,7 @@
 <!-- NAVBAR -->
         <nav class="row align-items-start justify-content-end pt-3" style="margin-right: 0.1px; margin-left: 0.1px;">
             <div class="col-12 col-md-6 col-lg-3 border-none d-flex  me-lg-1 rounded-pill shadow bg-light justify-content-around">
-                <a href="" class="text-decoration-none link-dark fs-5 titulo " >ERP</a> 
+                <a href="ERP.php" class="text-decoration-none link-dark fs-5 titulo " >ERP</a> 
                 <a href="CRM.php" class="text-decoration-none link-dark fs-5 titulo" >CRM</a>
                 <a href="" class="text-decoration-none link-dark fs-5 titulo " >Contacto</a>
             </div>
@@ -202,8 +202,8 @@
             
     </main>    
 
-    <section class="bg">
-        <div class="row p-5 mb-5" style="margin-right: 0.1px">
+    <!-- <section class="bg ">
+        <div class="row p-5" style="margin-right: 0.1px">
             <div class="col-12 align-self-center px-5">
                 <p class="text-center  fs-4">
                     Añade tus proyectos para que tus clientes lo conozcan desde tu sitio web. <br>
@@ -211,15 +211,15 @@
                 </p>
             </div>
         </div>
-    </section>
+    </section> -->
     
-    <section class="container">
+    <!--<section class="container">
         <div class="row">
             <div class="col-12">
                 <p class="text-center titulo display-6">Todas las plataformas, <br> Todos los dispositivos <strong>Sin problemas.</strong></p>
             </div>
         </div>
-        <!-- TABLA -->
+        </!-- TABLA 
         <div class="row align-items-center justify-content-center mb-4">
             <div class="col-12">
                 <div class="table-responsive text-center">
@@ -261,19 +261,19 @@
                                 <td class="table-success p-3"><img class="" src="/IMG/check2-circle.svg" width="25px" alt=""></td>
                                 <td class="table-danger p-3"><img class="" src="/IMG/check2-circle.svg" width="25px" alt=""></td>
                                 <td class="table-warning p-3"><img class="" src="/IMG/check2-circle.svg" width="25px" alt=""></td>
-                                <td class="table-primary"><img src="/IMG/people-fill.svg"  width="50px" alt="Usuarios Ilimitados"><!--Usuarios Ilimitados--></td>
+                                <td class="table-primary"><img src="/IMG/people-fill.svg"  width="50px" alt="Usuarios Ilimitados"><!--Usuarios Ilimitados--/></td>
                             </tr>
                             <tr>
                                 <td class="table-success p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
                                 <td class="table-danger p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
                                 <td class="table-warning p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
-                                <td class="table-primary"><img src="/IMG/house-door-fill.svg"  width="50px" alt=""><!--Gestor Inmobiliario--></td>
+                                <td class="table-primary"><img src="/IMG/house-door-fill.svg"  width="50px" alt=""><!--Gestor Inmobiliario-/-></td>
                             </tr>
                             <tr>
                                 <td class="table-success"></td>
                                 <td class="table-danger p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
                                 <td class="table-warning p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
-                                <td class="table-primary"><img src="/IMG/card-text.svg" width="50px" alt=""><!--Gestor de Prospectos--></td>
+                                <td class="table-primary"><img src="/IMG/card-text.svg" width="50px" alt=""><!--Gestor de Prospectos-/-></td>
                             </tr>
                             <tr>
                                 <td class="table-success"></td>
@@ -287,25 +287,25 @@
                                         <line x1="7" y1="8" x2="5.5" y2="9.5" />
                                         <polyline points="16 12 21 17 17 21 12 16" />
                                         <line x1="16" y1="17" x2="14.5" y2="18.5" />
-                                    </svg><!--Gestor de Estatus--></td>
+                                    </svg><!--Gestor de Estatus-/-></td>
                             </tr>
                             <tr>
                                 <td class="table-success"></td>
                                 <td class="table-danger"></td>
                                 <td class="table-warning p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
-                                <td class="table-primary"><img src="/IMG/1976101.svg" width="55px" alt=""><!--Gestor de Contratos--></td>
+                                <td class="table-primary"><img src="/IMG/1976101.svg" width="55px" alt=""><!--Gestor de Contratos-/-></td>
                             </tr>
                             <tr>
                                 <td class="table-success"></td>
                                 <td class="table-danger"></td>
                                 <td class="table-warning p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
-                                <td class="table-primary"><img src="/IMG/journal-text.svg" width="50px" alt=""><!--Gestor de Proyectos--></td>
+                                <td class="table-primary"><img src="/IMG/journal-text.svg" width="50px" alt=""><!--Gestor de Proyectos-/-></td>
                             </tr>
                             <tr>
                                 <td class="table-success"></td>
                                 <td class="table-danger"></td>
                                 <td class="table-warning p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
-                                <td class="table-primary"><img src="/IMG/envelope-fill.svg" width="50px" alt=""><!--Gestor de Correos--></td>
+                                <td class="table-primary"><img src="/IMG/envelope-fill.svg" width="50px" alt=""><!--Gestor de Correos-/-></td>
                             </tr>
                             <tr>
                                 <td class="table-success"></td>
@@ -317,14 +317,14 @@
                                         <ellipse cx="12" cy="6" rx="8" ry="3" />
                                         <path d="M4 6v6c0 1.657 3.582 3 8 3a19.84 19.84 0 0 0 3.302 -.267m4.698 -2.733v-6" />
                                         <path d="M4 12v6c0 1.599 3.335 2.905 7.538 2.995m8.462 -6.995v-2m-6 7h7m-3 -3l3 3l-3 3" />
-                                    </svg><!--Futuras Aduciones-->
+                                    </svg><!--Futuras Aduciones-/->
                                 </td>
                             </tr>
                             <tr>
                                 <td class="fst-italic table-success p-3">8 GB</td>
                                 <td class="fst-italic table-danger p-3">16 GB</td>
                                 <td class="fst-italic table-warning p-3">32 GB</td>
-                                <td class="table-primary"><img src="/IMG/cloud-plus-fill.svg" width="50px" alt=""><!--Hosting--></td>
+                                <td class="table-primary"><img src="/IMG/cloud-plus-fill.svg" width="50px" alt=""><!--Hosting-/-></td>
                             </tr>
                             <tr>
                                 <td>
@@ -348,12 +348,14 @@
                     </table>
                 </div>
             </div>
-        </div>
-    </section>
+        </div> 
+    </section>-->
 
-        <!-- CARDS -->
-    <section >
-        <div class="row row-cols-1 row-cols-md-3 g-4 bg-seccion px-5 pb-3">
+    <!-- CARDS -->
+    <section  >
+        
+        <div class="row row-cols-1 row-cols-md-3 g-4 bg-seccion px-md-5 pb-3" style="margin-left: 0.1px;">
+        <!-- Jugador Casual -->
             <div class="col">
                 <div class="card bg-success shadow">
                     <div class="card-header">
@@ -369,9 +371,12 @@
                         <hr>
                         <p class="text-light"><img class="pb-1" src="/IMG/cloud-plus-fill.svg" width="8%" alt=""><span class="pt-5 ps-3">Hosting: <i>8GB</i></span></p>
                     </div>
+                    <div class="d-grid gap-2">
+                        <button type="button" class="btn btn-warning">Contratar Ahora</button>
+                    </div>
                 </div>
             </div>
-            
+        <!-- Aficionado Intermedio     -->
             <div class="col">
                 <div class="card bg-danger shadow">
                     <div class="card-header">
@@ -412,18 +417,20 @@
                             <img class="pb-1" src="/IMG/cloud-plus-fill.svg" width="8%" alt="">
                             <span class="pt-5 ps-3">Hosting: <i>8GB</i></span>
                         </p>
-                    
+                    </div>
+                    <div class="d-grid gap-2">
+                        <button type="button" class="btn btn-warning">Contratar Ahora</button>
                     </div>
                 </div>
             </div>
-
+        <!-- Aficionado Avanzado -->
             <div class="col">
                 <div class="card bg-warning shadow">
                     <div class="card-header">
                         <h3 class="card-title text-center text-dark">Aficionado Avanzado</h3>
                     </div>
                     <div class="card-body text-dark pb-0">
-                        <h4 class="text-center">$599.00</h4>
+                        <h4 class="text-center">$999.00</h4>
                         <p class="text-center"><span class="text-black-50">MXM al MES</span> <br><span class="text-white-50">(pago mensual)</span></p>
                         <p class="fs-5">Crece con nosotros y lleva el éxito de tu negocio al siguiente nivel.</p>
                         <p class="text-dark">
@@ -472,11 +479,12 @@
                             <img class="pb-1" src="/IMG/cloud-plus-fill.svg" width="8%" alt="">
                             <span class="pt-5 ps-3">Hosting: <i>8GB</i></span>
                         </p>
-                    
+                    </div>
+                    <div class="d-grid gap-2">
+                        <button type="button" class="btn btn-outline-dark">Contratar Ahora</button>
                     </div>
                 </div>
             </div>
-            
         </div>
     </section>
    

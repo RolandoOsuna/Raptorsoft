@@ -7,44 +7,31 @@
     <link rel="stylesheet" href="/BOOTSTRAP/css/bootstrap.min.css">
     <link rel="stylesheet" href="/CSS/estilos.css">
     <link rel="stylesheet" href="/CSS/Normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500&display=swap" rel="stylesheet">  
     <title>CRM</title>
 </head>
 <body style="background-color: #f0f0f0;">
 <?php require('NavBar.php') ?>
     <header class="container ">
-        <div class="col-12">
-            <p class="display-4 text-center text-primary mt-1">CRM </p>
+        <div class="col-12 lead">
+            <p class="display-4 ff-raleway  text-center text-primary mt-1">CRM </p>
         </div>
     </header>
-    
-    <section class="container ">
-        <div class="row align-items-center justify-content-lg-center mt-3 bg-light p-5">
-            <h2 class="text-center texto" style="color: #E5BE51;">Accede a la automatización de tu negocio</h1>
-            <h3>Productos y versiones</h3>
-            <p class="fs-5 texto">Utiliza nuestras soluciones de software en la nube ya que es mucho más fácil gracias anuestra lista de integraciones, sácale el mayor partido a las aplicaciones y a los servicios que te ayudan a hacer crecer a tu negocio.</p>
-            <div class="col-12 col-lg-4 ">
-                <ul class="ps-5 fs-4 arial">
-                    <li >Cremerias ®</li>
-                    <li >Panaderías®</li>
-                    <li >Escuela primaria®</li>
-                    <li >Abarroteras®</li>
-                    <li >Fruterías®</li>
-                    <li >Abarrotes</li>
-                    <li >Carnicerías</li>
-                    <li >Comercializadoras</li>
-                </ul>
+    <section>
+        <div class="row my-3 margen bg-light align-items-center shadow">
+            <div class="col-12 col-md-6 col-lg-5">
+                <p class="fs-3 px-5 text-center texto ">La más amplia gama de herramientas para ayudarte a optimizar tus actividades<br> <strong> Ahorrandote tiempo y dinero.</strong></p>
             </div>
-            <div class="col-12 col-lg-6">
-                <img class="img-fluid" src="/IMG/Servicios.png" width="" alt="">
-            </div>
+            <aside class="col-12 col-md-6 col-lg-7 text-center">
+                <img class="img-fluid float-end" src="/IMG/Section-inmobiliaria.jpg"  alt="">
+            </aside>
         </div>
+        
+        
+        
     </section>
-    
-    <div class="row my-5 margen" style="background: #914623;">
-        <div class="col-12">
-            <p class="text-center fs-3 my-5" style="color: #E5BE51;">La más amplia gama de herramientas para ayudarte a optimizar tus actividades. <br>Ahorrandote tiempo y dinero.</p>
-        </div>
-    </div>
 
     <main class="container">
         <div class="row">
@@ -260,6 +247,14 @@
             </div>
         </div>
     </main>
+    <section class="row margen bg-secction-crm justify-content-end">
+        <div class="col-12 col-lg-6 align-self-center px-5">
+            <p class="text-center fs-4 ff-raleway text-white">
+                Añade tus proyectos para que tus clientes lo conozcan desde tu sitio web. <br>
+                Realiza contratos fácilmente rellenando los recuadros con los datos marcados, lleva un mejor control y lo tendrás disponible en todo momento.
+            </p>
+        </div>
+    </section>
 
 
     

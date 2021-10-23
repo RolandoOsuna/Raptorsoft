@@ -1,4 +1,3 @@
-
 .header{
     background-image: url(/IMG/Raptor-header.jpg);
     background-position:center center;
@@ -51,5 +50,15 @@
     background-color: #32aa76;
 }
 
+.bg-secction-crm{
+    background-image: url(/IMG/casadepartamento.jpg);
+    background-position:center center;
+    background-size: cover;
+    height: 300px;
+    
+}
 
+.ff-raleway{
+    font-family: 'Lora';
+}
 
