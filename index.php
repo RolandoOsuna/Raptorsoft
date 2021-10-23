@@ -52,55 +52,6 @@
                 <p class="text-center texto fs-5">Utiliza nuestras soluciones de software en la nube ya que es mucho más fácil gracias a nuestra lista de integraciones, sácale el mayor partido a las aplicaciones y a los servicios que te ayudan a hacer crecer a tu negocio.</p>
             </div>
         </div>
-        <!-- CARDS 
-        <div class="row justify-content-center">
-            <div class="col-8 card pt-3">
-                <div class="row">
-                    <div class="col-3 ">
-                        <img src="/IMG/Raptor-card.jpg" class="img-fluid float-start" width="100%" alt="">         
-                    </div>
-                    <div class="col-9">
-                        <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis tempore obcaecati, aliquid odio ipsum ad accusantium dolores aspernatur ut, doloremque rerum consequuntur ex rem. Voluptate mollitia a hic deleniti quod?</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row justify-content-center pt-2">
-            <div class="col-8 card pt-3">
-                <div class="row">
-                    <div class="col-3 ">
-                        <img src="/IMG/Raptor-card.jpg" class="img-fluid float-start" width="100%" alt="">         
-                    </div>
-                    <div class="col-9">
-                        <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis tempore obcaecati, aliquid odio ipsum ad accusantium dolores aspernatur ut, doloremque rerum consequuntur ex rem. Voluptate mollitia a hic deleniti quod?</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>       
-        <div class="row justify-content-center pt-2">
-            <div class="col-8 card pt-3">
-                <div class="row">
-                    <div class="col-3 ">
-                        <img src="/IMG/Raptor-card.jpg" class="img-fluid float-start" width="100%" alt="">         
-                    </div>
-                    <div class="col-9">
-                        <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis tempore obcaecati, aliquid odio ipsum ad accusantium dolores aspernatur ut, doloremque rerum consequuntur ex rem. Voluptate mollitia a hic deleniti quod?</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>-->
 
         <!-- ACORDEON -->
         <div class="accordion mb-5" id="accordionPanelsStayOpenExample">
@@ -127,7 +78,9 @@
                             </div>
                             <div class="col-12 col-md-6 col-lg-9 ">
                                 <h3>Raptor</h3>
-                                <p>Versión completa</p>
+                                <p class="fs-5 text-info">Selecciona el mejor paquete para tu negocio!!! <br>
+                                Facil de usar, Herramientas integradas 24/7    
+                            </p>
                             </div>
                         </div>
                         <div class="col-12 text-end">
@@ -159,8 +112,8 @@
                                 <img class="img-fluid " src="/IMG/Cremeria/Cremeria-card.jpg" width="100%" alt="">
                             </div>
                             <div class="col-12 col-md-6 col-lg-9 ">
-                                <h3>Cremería</h3>
-                                <p>Aplicado en negocio de cremería</p>
+                                <h3>Cremerías</h3>
+                                <!-- <p>Aplicado en negocio de cremería</p> -->
                             </div>
                         </div>
                         <div class="col-12 text-end">
@@ -177,7 +130,7 @@
                         data-bs-target="#panelsStayOpen-collapseThree" 
                         aria-expanded="false" 
                         aria-controls="panelsStayOpen-collapseThree">
-                        Abarrotes 
+                        Changarros 
                     </button>
                 </h2>
                 <div id="panelsStayOpen-collapseThree" class="py-3 accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
@@ -189,8 +142,8 @@
                             <img class="img-fluid " src="/IMG/Abarrotes/Abarrotes-card2.jpeg" width="100%" alt="">
                         </div>
                         <div class="col-12 col-md-6 col-lg-9 ">
-                            <h3>Abarrotes</h3>
-                            <p>Versión aplicada en tiendas de abarrotes</p>
+                            <h3>Changarros</h3>
+                            <!-- <p>Versión aplicada en tiendas de abarrotes</p> -->
                         </div>
                         <div class="col-12 text-end pe-4">
                             <a href="Descripcion.php" class="text-decoration-none text-muted">Ver mas</a>
@@ -372,7 +325,7 @@
                         <p class="text-light"><img class="pb-1" src="/IMG/cloud-plus-fill.svg" width="8%" alt=""><span class="pt-5 ps-3">Hosting: <i>8GB</i></span></p>
                     </div>
                     <div class="d-grid gap-2">
-                        <button type="button" class="btn btn-warning">Contratar Ahora</button>
+                        <button type="button" class="btn btn-warning"><a class="text-decoration-none link-dark" href="http://wa.link/3iaic9">Contratar Ahora!</a></button>
                     </div>
                 </div>
             </div>
@@ -419,7 +372,7 @@
                         </p>
                     </div>
                     <div class="d-grid gap-2">
-                        <button type="button" class="btn btn-warning">Contratar Ahora</button>
+                        <button type="button" class="btn btn-warning"><a class="text-decoration-none link-dark" href="http://wa.link/3iaic9">Contratar Ahora!</a></button>
                     </div>
                 </div>
             </div>
@@ -481,7 +434,7 @@
                         </p>
                     </div>
                     <div class="d-grid gap-2">
-                        <button type="button" class="btn btn-outline-dark">Contratar Ahora</button>
+                        <button type="button" class="btn btn-outline-light"><a class="text-decoration-none link-dark" href="http://wa.link/3iaic9">Contratar Ahora!</a></button>
                     </div>
                 </div>
             </div>

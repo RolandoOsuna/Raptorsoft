@@ -153,17 +153,17 @@
                             <tr>
                                 <td>
                                     <div class="d-grid gap-2">
-                                        <button type="button" class="btn btn-warning">Contratar Ahora</button>
+                                        <button type="button" class="btn btn-warning"><a class="text-decoration-none link-dark" href="http://wa.link/3iaic9">Contratar Ahora!</a></button>
                                     </div>
                                 </td>
                                 <td>
                                     <div class="d-grid gap-2">
-                                        <button type="button" class="btn btn-warning">Contratar Ahora</button>
+                                        <button type="button" class="btn btn-warning"><a class="text-decoration-none link-dark" href="http://wa.link/3iaic9">Contratar Ahora!</a></button>
                                     </div>
-                                </td>
+                                </td> <a ></a>
                                 <td>
                                     <div class="d-grid gap-2">
-                                        <button type="button" class="btn btn-warning">Contratar Ahora</button>
+                                        <button type="button" class="btn btn-warning"><a class="text-decoration-none link-dark" href="http://wa.link/3iaic9">Contratar Ahora!</a></button>
                                     </div>
                                 </td>
 
