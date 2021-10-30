@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="/BOOTSTRAP/css/bootstrap.min.css">
     <link rel="stylesheet" href="/CSS/estilos.css">
     <link rel="stylesheet" href="/CSS/Normalize.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="/IMG/Raptor-Navbar.png">
+
     <title>Descripcion</title>
 </head>
 <body style="background-color: #f0f0f0;">

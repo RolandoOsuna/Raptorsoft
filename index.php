@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/BOOTSTRAP/css/bootstrap.min.css">
     <link rel="stylesheet" href="/CSS/estilos.css">
     <link rel="stylesheet" href="/CSS/Normalize.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="/IMG/Raptor-Navbar.png">
     <title>Inicio</title>
 </head>
 <body  style="background-color: #f0f0f0;">
@@ -14,12 +15,13 @@
     <header class="header">
 <!-- NAVBAR -->
         <nav class="row align-items-start justify-content-end pt-3" style="margin-right: 0.1px; margin-left: 0.1px;">
-            <div class="col-12 col-md-6 col-lg-3 border-none d-flex  me-lg-1 rounded-pill shadow bg-light justify-content-around">
+            <div class="col-12 col-md-6 col-lg-4 border-none d-flex  me-lg-1 rounded-pill shadow bg-light justify-content-around">
                 <a href="ERP.php" class="text-decoration-none link-dark fs-5 titulo " >ERP</a> 
                 <a href="CRM.php" class="text-decoration-none link-dark fs-5 titulo" >CRM</a>
-                <a href="" class="text-decoration-none link-dark fs-5 titulo " >Contacto</a>
+                <a href="AtencionClientes.php" class="text-decoration-none link-dark fs-5 titulo " >Atención a Clientes</a>
             </div>
         </nav>
+  
     </header>
 
 <!-- SECCTION -->
@@ -58,7 +60,7 @@
             <div class="accordion-item">
                 <h2 class="accordion-header" id="panelsStayOpen-headingOne">
                     <button 
-                        class="accordion-button btn-acordeon" 
+                        class="accordion-button" 
                         type="button" 
                         data-bs-toggle="collapse" 
                         data-bs-target="#panelsStayOpen-collapseOne" 
@@ -67,7 +69,7 @@
                         Raptor
                     </button>
                 </h2>
-                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse  show" aria-labelledby="panelsStayOpen-headingOne">
                     <div class="accordion-body">
                         <div class="row align-items-center">
                             <div class="col-12 text-center d-block d-md-none ">
@@ -93,7 +95,7 @@
             <div class="accordion-item">
                 <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
                     <button 
-                        class="accordion-button collapsed" 
+                        class="accordion-button btn-acordeon collapsed" 
                         type="button" 
                         data-bs-toggle="collapse" 
                         data-bs-target="#panelsStayOpen-collapseTwo" 
@@ -102,7 +104,7 @@
                         Cremería
                     </button>
                 </h2>
-                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse  show" aria-labelledby="panelsStayOpen-headingTwo">
                     <div class="accordion-body">
                         <div class="row">
                             <div class="col-12 text-center d-block d-md-none ">
@@ -112,8 +114,7 @@
                                 <img class="img-fluid " src="/IMG/Cremeria/Cremeria-card.jpg" width="100%" alt="">
                             </div>
                             <div class="col-12 col-md-6 col-lg-9 ">
-                                <h3>Cremerías</h3>
-                                <!-- <p>Aplicado en negocio de cremería</p> -->
+                                <h1 class="ps-5 pt-3 text-success" style="letter-spacing: 10px;">Cremerías</h1>
                             </div>
                         </div>
                         <div class="col-12 text-end">
@@ -125,7 +126,7 @@
             <div class="accordion-item">
                 <h2 class="accordion-header" id="panelsStayOpen-headingThree">
                     <button 
-                        class="accordion-button collapsed" 
+                        class="accordion-button btn-acordeon collapsed" 
                         type="button" data-bs-toggle="collapse" 
                         data-bs-target="#panelsStayOpen-collapseThree" 
                         aria-expanded="false" 
@@ -133,7 +134,7 @@
                         Changarros 
                     </button>
                 </h2>
-                <div id="panelsStayOpen-collapseThree" class="py-3 accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                <div id="panelsStayOpen-collapseThree" class="py-3 accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingThree">
                     <div class="row">
                         <div class="col-12 text-center d-block d-md-none ">
                             <img class="img-fluid " src="/IMG/Abarrotes/Abarrotes-card2.jpeg" width="80%" alt="">
@@ -142,7 +143,7 @@
                             <img class="img-fluid " src="/IMG/Abarrotes/Abarrotes-card2.jpeg" width="100%" alt="">
                         </div>
                         <div class="col-12 col-md-6 col-lg-9 ">
-                            <h3>Changarros</h3>
+                            <h1 class="ps-5 pt-3 text-danger" style="letter-spacing: 10px;">Changarros</h1>
                             <!-- <p>Versión aplicada en tiendas de abarrotes</p> -->
                         </div>
                         <div class="col-12 text-end pe-4">
@@ -151,162 +152,12 @@
                     </div>
                 </div>
             </div>
-        </div>
-            
+        </div>   
     </main>    
 
-    <!-- <section class="bg ">
-        <div class="row p-5" style="margin-right: 0.1px">
-            <div class="col-12 align-self-center px-5">
-                <p class="text-center  fs-4">
-                    Añade tus proyectos para que tus clientes lo conozcan desde tu sitio web. <br>
-                    Realiza contratos fácilmente rellenando los recuadros con los datos marcados, lleva un mejor control y lo tendrás disponible en todo momento.
-                </p>
-            </div>
-        </div>
-    </section> -->
-    
-    <!--<section class="container">
-        <div class="row">
-            <div class="col-12">
-                <p class="text-center titulo display-6">Todas las plataformas, <br> Todos los dispositivos <strong>Sin problemas.</strong></p>
-            </div>
-        </div>
-        </!-- TABLA 
-        <div class="row align-items-center justify-content-center mb-4">
-            <div class="col-12">
-                <div class="table-responsive text-center">
-                    <table class="table table-sm table-borderless">
-                        <thead class="shadow">
-                            <tr class="encabezado-tabla text-white fs-md-5" >
-                                <th class="fw-normal">
-                                    <p class="">
-                                        <span class="text-info ">Jugador Casual</span><br>
-                                        <span class="text-white ">$299.00</span><br> 
-                                        <span class="text-white-50">MXM al MES</span><br>
-                                        <span class="text-muted">(pago mensual)</span>
-                                    </p>
-                                </th>
-                                <th class="fw-normal">
-                                    <p class="">
-                                        <span class="text-info ">Aficionado <br> intermedio</span><br>
-                                        <span class="text-white ">$599.00</span><br> 
-                                        <span class="text-white-50">MXM al MES</span><br>
-                                        <span class="text-muted">(pago mensual)</span>
-                                    </p>
-                                </th>
-                                <th class="fw-normal">
-                                    <p class="">
-                                        <span class="text-info ">Aficionado <br> avanzado</span><br>
-                                        <span class="text-white ">$999.00</span><br> 
-                                        <span class="text-white-50">MXM al MES</span><br>
-                                        <span class="text-muted">(pago mensual)</span>
-                                    </p>
-                                </th>
-                                <th class="pb-5 pb-sm-5 pb-lg-5 ">
-                                    <img src="/IMG/Raptor-Navbar.png" width="80px" alt="">
-                                </th>
-                            </tr>
-                        </thead>
-
-                        <tbody class="">
-                            <tr>
-                                <td class="table-success p-3"><img class="" src="/IMG/check2-circle.svg" width="25px" alt=""></td>
-                                <td class="table-danger p-3"><img class="" src="/IMG/check2-circle.svg" width="25px" alt=""></td>
-                                <td class="table-warning p-3"><img class="" src="/IMG/check2-circle.svg" width="25px" alt=""></td>
-                                <td class="table-primary"><img src="/IMG/people-fill.svg"  width="50px" alt="Usuarios Ilimitados"><!--Usuarios Ilimitados--/></td>
-                            </tr>
-                            <tr>
-                                <td class="table-success p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
-                                <td class="table-danger p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
-                                <td class="table-warning p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
-                                <td class="table-primary"><img src="/IMG/house-door-fill.svg"  width="50px" alt=""><!--Gestor Inmobiliario-/-></td>
-                            </tr>
-                            <tr>
-                                <td class="table-success"></td>
-                                <td class="table-danger p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
-                                <td class="table-warning p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
-                                <td class="table-primary"><img src="/IMG/card-text.svg" width="50px" alt=""><!--Gestor de Prospectos-/-></td>
-                            </tr>
-                            <tr>
-                                <td class="table-success"></td>
-                                <td class="table-danger p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
-                                <td class="table-warning p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
-                                <td class="table-primary"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tools" width="50px" height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                        <path d="M3 21h4l13 -13a1.5 1.5 0 0 0 -4 -4l-13 13v4" />
-                                        <line x1="14.5" y1="5.5" x2="18.5" y2="9.5" />
-                                        <polyline points="12 8 7 3 3 7 8 12" />
-                                        <line x1="7" y1="8" x2="5.5" y2="9.5" />
-                                        <polyline points="16 12 21 17 17 21 12 16" />
-                                        <line x1="16" y1="17" x2="14.5" y2="18.5" />
-                                    </svg><!--Gestor de Estatus-/-></td>
-                            </tr>
-                            <tr>
-                                <td class="table-success"></td>
-                                <td class="table-danger"></td>
-                                <td class="table-warning p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
-                                <td class="table-primary"><img src="/IMG/1976101.svg" width="55px" alt=""><!--Gestor de Contratos-/-></td>
-                            </tr>
-                            <tr>
-                                <td class="table-success"></td>
-                                <td class="table-danger"></td>
-                                <td class="table-warning p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
-                                <td class="table-primary"><img src="/IMG/journal-text.svg" width="50px" alt=""><!--Gestor de Proyectos-/-></td>
-                            </tr>
-                            <tr>
-                                <td class="table-success"></td>
-                                <td class="table-danger"></td>
-                                <td class="table-warning p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
-                                <td class="table-primary"><img src="/IMG/envelope-fill.svg" width="50px" alt=""><!--Gestor de Correos-/-></td>
-                            </tr>
-                            <tr>
-                                <td class="table-success"></td>
-                                <td class="table-danger"></td>
-                                <td class="table-warning p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
-                                <td class="table-primary">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-database-export" width="48" height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                        <ellipse cx="12" cy="6" rx="8" ry="3" />
-                                        <path d="M4 6v6c0 1.657 3.582 3 8 3a19.84 19.84 0 0 0 3.302 -.267m4.698 -2.733v-6" />
-                                        <path d="M4 12v6c0 1.599 3.335 2.905 7.538 2.995m8.462 -6.995v-2m-6 7h7m-3 -3l3 3l-3 3" />
-                                    </svg><!--Futuras Aduciones-/->
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="fst-italic table-success p-3">8 GB</td>
-                                <td class="fst-italic table-danger p-3">16 GB</td>
-                                <td class="fst-italic table-warning p-3">32 GB</td>
-                                <td class="table-primary"><img src="/IMG/cloud-plus-fill.svg" width="50px" alt=""><!--Hosting-/-></td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <div class="d-grid gap-2">
-                                        <button type="button" class="btn btn-warning">Contratar Ahora</button>
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="d-grid gap-2">
-                                        <button type="button" class="btn btn-warning">Contratar Ahora</button>
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="d-grid gap-2">
-                                        <button type="button" class="btn btn-warning">Contratar Ahora</button>
-                                    </div>
-                                </td>
-
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-        </div> 
-    </section>-->
 
     <!-- CARDS -->
-    <section  >
-        
+    <section >
         <div class="row row-cols-1 row-cols-md-3 g-4 bg-seccion px-md-5 pb-3" style="margin-left: 0.1px;">
         <!-- Jugador Casual -->
             <div class="col">
@@ -316,16 +167,16 @@
                     </div>
                     <div class="card-body text-white pb-0">
                         <h4 class="text-center">$299.00</h4>
-                        <p class="text-center"><span class="text-white-50">MXM al MES</span> <br><span class="text-black-50">(pago mensual)</span></p>
-                        <p class="fs-5">Ideal para iniciar y posicionar tu proyecto personal</p>
-                        <p class="text-light"><img class="" src="/IMG/people-fill.svg"width="8%" alt="Usuarios Ilimitados"> <span class="pt-5 ps-3">Usuarios Ilimitados</span> </p>
+                        <p class="text-center"><span class="text-white-50">MXM al MES</span> <br><span class="text-black-50">(pago mensual)<br><cite>Anualidad $1,000</cite></span></p>
+                        <p class="fs-5 text-center">Tu proyecto personal</p>
+                        <p class="text-light"><img class="" src="/IMG/people-fill.svg"width="8%" alt="Usuarios Ilimitados"> <span class="pt-5 ps-3">1 Usuario</span> </p>
                         <hr>
-                        <p class="text-light"><img class="pb-1" src="/IMG/house-door-fill.svg"  width="8%" alt=""><span class="pt-5 ps-3">Gestor Inmobiliario</span></p>
+                        <p class="text-light"><img class="pb-1" src="/IMG/house-door-fill.svg"  width="8%" alt=""><span class="pt-5 ps-3"> Inmobiliario</span></p>
                         <hr>
                         <p class="text-light"><img class="pb-1" src="/IMG/cloud-plus-fill.svg" width="8%" alt=""><span class="pt-5 ps-3">Hosting: <i>8GB</i></span></p>
                     </div>
                     <div class="d-grid gap-2">
-                        <button type="button" class="btn btn-warning"><a class="text-decoration-none link-dark" href="http://wa.link/3iaic9">Contratar Ahora!</a></button>
+                        <button type="button" class="btn btn-warning"><a class="text-decoration-none link-dark" href="http://wa.link/rsjw0t">Contratar Ahora!</a></button>
                     </div>
                 </div>
             </div>
@@ -337,20 +188,20 @@
                     </div>
                     <div class="card-body text-white pb-0">
                         <h4 class="text-center">$599.00</h4>
-                        <p class="text-center"><span class="text-white-50">MXM al MES</span> <br><span class="text-black-50">(pago mensual)</span></p>
-                        <p class="fs-5">Aumenta tu almacenamiento y obtén atención telefónica por expertos</p>
+                        <p class="text-center"><span class="text-white-50">MXM al MES</span> <br><span class="text-black-50">(pago mensual)<br><cite>Anualidad $1,500</cite></span></p>
+                        <p class="fs-5 text-center">Atención telefónica por expertos </p>
                         <p class="text-light">
                             <img class="" src="/IMG/people-fill.svg"width="8%" alt="Usuarios Ilimitados"> 
-                            <span class="pt-5 ps-3">Usuarios Ilimitados</span> 
+                            <span class="pt-5 ps-3">2 Usuarios</span> 
                         </p>
                         <hr>
                         <p class="text-light">
                             <img class="pb-1" src="/IMG/house-door-fill.svg"  width="8%" alt="">
-                            <span class="pt-5 ps-3">Gestor Inmobiliario</span>
+                            <span class="pt-5 ps-3">Inmobiliario</span>
                         </p>
                         <hr>
                         <p class="text-light"><img src="/IMG/card-text.svg" width="8%" alt="">
-                            <span class="pt-5 ps-3">Gestor de Prospectos</span>
+                            <span class="pt-5 ps-3">Prospectos</span>
                         </p>
                         <hr>
                         <p class="text-light"> 
@@ -363,7 +214,7 @@
                                 <polyline points="16 12 21 17 17 21 12 16" />
                                 <line x1="16" y1="17" x2="14.5" y2="18.5" />
                             </svg>
-                            <span class="pt-5 ps-2">Gestor de Estatus</span>
+                            <span class="pt-5 ps-2">Estatus</span>
                         </p>
                         <hr>
                         <p class="text-light">
@@ -372,7 +223,7 @@
                         </p>
                     </div>
                     <div class="d-grid gap-2">
-                        <button type="button" class="btn btn-warning"><a class="text-decoration-none link-dark" href="http://wa.link/3iaic9">Contratar Ahora!</a></button>
+                        <button type="button" class="btn btn-warning"><a class="text-decoration-none link-dark" href="http://wa.link/rsjw0t">Contratar Ahora!</a></button>
                     </div>
                 </div>
             </div>
@@ -384,20 +235,20 @@
                     </div>
                     <div class="card-body text-dark pb-0">
                         <h4 class="text-center">$999.00</h4>
-                        <p class="text-center"><span class="text-black-50">MXM al MES</span> <br><span class="text-white-50">(pago mensual)</span></p>
-                        <p class="fs-5">Crece con nosotros y lleva el éxito de tu negocio al siguiente nivel.</p>
+                        <p class="text-center"><span class="text-black-50">MXM al MES</span> <br><span class="text-white-50">(pago mensual)<br><cite><cite></cite>Anualidad $2,000</cite></span></p>
+                        <p class="fs-5 text-center">Tu negocio al siguiente nivel.</p>
                         <p class="text-dark">
                             <img class="" src="/IMG/people-fill.svg"width="8%" alt="Usuarios Ilimitados"> 
-                            <span class="pt-5 ps-3">Usuarios Ilimitados</span> 
+                            <span class="pt-5 ps-3">3 Usuarios</span> 
                         </p>
                         <hr>
                         <p class="text-dark">
                             <img class="pb-1" src="/IMG/house-door-fill.svg"  width="8%" alt="">
-                            <span class="pt-5 ps-3">Gestor Inmobiliario</span>
+                            <span class="pt-5 ps-3">Inmobiliario</span>
                         </p>
                         <hr>
                         <p class="text-dark"><img src="/IMG/card-text.svg" width="8%" alt="">
-                            <span class="pt-5 ps-3">Gestor de Prospectos</span>
+                            <span class="pt-5 ps-3">Prospectos</span>
                         </p>
                         <hr>
                         <p class="text-dark"> 
@@ -410,22 +261,22 @@
                                 <polyline points="16 12 21 17 17 21 12 16" />
                                 <line x1="16" y1="17" x2="14.5" y2="18.5" />
                             </svg>
-                            <span class="pt-5 ps-2">Gestor de Estatus</span>
+                            <span class="pt-5 ps-2">Estatus</span>
                         </p>
                         <hr>
                         <p class="text-dark">
                             <img src="/IMG/1976101.svg" width="11%" alt="">
-                            <span class="pt-5 ps-2">Gestor de Contratos</span>
+                            <span class="pt-5 ps-2">Contratos</span>
                         </p>
                         <hr>
                         <p class="text-dark">
                             <img src="/IMG/journal-text.svg" width="8%" alt="">
-                            <span class="pt-5 ps-3">Gestor de Proyectos</span>
+                            <span class="pt-5 ps-3">Proyectos</span>
                         </p>
                         <hr>
                         <p class="text-dark">
                             <img src="/IMG/envelope-fill.svg" width="8%" alt="">
-                            <span class="pt-5 ps-3">Gestor de Correos</span>
+                            <span class="pt-5 ps-3">Correos</span>
                         </p>
                         <hr>
                         <p class="text-dark">
@@ -434,7 +285,7 @@
                         </p>
                     </div>
                     <div class="d-grid gap-2">
-                        <button type="button" class="btn btn-outline-light"><a class="text-decoration-none link-dark" href="http://wa.link/3iaic9">Contratar Ahora!</a></button>
+                        <button type="button" class="btn btn-outline-light"><a class="text-decoration-none link-dark" href="http://wa.link/rsjw0t">Contratar Ahora!</a></button>
                     </div>
                 </div>
             </div>
