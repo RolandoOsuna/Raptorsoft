@@ -36,20 +36,11 @@
     
     
     
-    <section>        
-        <div class="row mt-1 margen bg-light align-items-center shadow">
-            <aside class="col-12 col-md-6 col-lg-7 text-center ms-1 ms-md-0">
-                <img class="img-fluid float-start " src="/IMG/Section-inmobiliaria.jpg"  width="100%" alt="">
-            </aside>
-            <div class="col-12 col-md-6 col-lg-5 ">
-                <p class="fs-3 text-center texto ">La más amplia gama de herramientas para ayudarte a optimizar tus actividades<br> <strong> Ahorrandote tiempo y dinero.</strong></p>
-            </div>
-        </div>
-    </section>    
+      
     
     <!-- CARDS -->
 <section >
-    <div class="row row-cols-1 row-cols-md-3 g-4 bg-seccion px-md-5 pb-3 mt-3" style="margin-left: 0.1px;">
+    <div class="row row-cols-1 row-cols-md-3 g-4 margen px-md-5 pb-3 mt-3" style="margin-left: 0.1px;">
     <!-- Jugador Casual -->
         <div class="col">
             <div class="card bg-success shadow">
@@ -183,6 +174,16 @@
     </div>
 </section>
 
+<section>        
+        <div class="row mt-1 margen bg-light align-items-center shadow">
+            <aside class="col-12 col-md-6 col-lg-7 text-center ms-1 ms-md-0">
+                <img class="img-fluid float-start " src="/IMG/Section-inmobiliaria.jpg"  width="100%" alt="">
+            </aside>
+            <div class="col-12 col-md-6 col-lg-5 ">
+                <p class="fs-3 text-center texto ">La más amplia gama de herramientas para ayudarte a optimizar tus actividades<br> <strong> Ahorrandote tiempo y dinero.</strong></p>
+            </div>
+        </div>
+    </section> 
     
 <?php require('footer.php') ?>
 <script src="/BOOTSTRAP/js/bootstrap.bundle.js"></script>
