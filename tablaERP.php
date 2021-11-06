@@ -15,16 +15,16 @@
                                     <p class="">
                                         <span class="text-info ">Home</span><br>
                                         <span class="text-white ">$4,999.00</span><br> 
-                                        <span class="text-white-50">MXM</span><br>
+                                        <span class="text-white-50">MXN</span><br>
                                         <span class="text-muted">pago anual <br>$1,000</span><br>
-                                        <b>Licencia 1 Usuario</b>
+                                        <b>Licencia 2 Usuarios</b>
                                     </p>
                                 </th>
                                 <th class="fw-normal">
                                     <p class="">
                                         <span class="text-info ">PYME</span><br>
                                         <span class="text-white ">$8,999.00</span><br> 
-                                        <span class="text-white-50">MXM</span><br>
+                                        <span class="text-white-50">MXN</span><br>
                                         <span class="text-muted">pago anual <br>$1,800</span><br>
                                         <b>Licencia 3 Usuarios</b>
                                     </p>
@@ -33,7 +33,7 @@
                                     <p class="">
                                         <span class="text-info ">Ultimate</span><br>
                                         <span class="text-white ">$11,999.00</span><br> 
-                                        <span class="text-white-50">MXM</span><br>
+                                        <span class="text-white-50">MXN</span><br>
                                         <span class="text-muted">pago anual <br>$2,500</span><br>
                                         <b>Licencia 4 Usuarios</b>
                                     </p>
@@ -42,7 +42,7 @@
                                     <p class="">
                                         <span class="text-info ">Multiempresa</span><br>
                                         <span class="text-white ">$17,999.00</span><br> 
-                                        <span class="text-white-50">MXM</span><br>
+                                        <span class="text-white-50">MXN</span><br>
                                         <span class="text-muted">pago anual <br>$3,500</span><br>
                                         <b>Licencia 5 Usuarios</b>
                                     </p>
@@ -55,15 +55,15 @@
 
                         <tbody class="">
                             <tr>
-                                <td class="fw-bold fst-italic text-muted table-success p-3">Escritorio</td>
-                                <td class="fw-bold fst-italic text-muted table-danger p-3">Escritorio y Movil</td>
-                                <td class="fw-bold fst-italic text-muted table-warning p-3">Escritorio, Web y Movil</td>
-                                <td class="fw-bold fst-italic text-muted table-primary p-3">Escritorio, Web y Movil</td>
+                                <td class="fw-bold fst-italic text-muted table-success p-3">Escritorio y Web</td>
+                                <td class="fw-bold fst-italic text-muted table-danger p-3">Escritorio y Web</td>
+                                <td class="fw-bold fst-italic text-muted table-warning p-3">Escritorio y Web</td>
+                                <td class="fw-bold fst-italic text-muted table-primary p-3">Escritorio y Web</td>
                                 <!-- <td class="table-muted"><img src="/IMG/people-fill.svg"  width="50px" alt="Usuarios Ilimitados">Usuarios Ilimitados</td> -->
                                 <td class="table-muted fs-5 p-3"><b>Versiones</b></td>
                             </tr>
                             <tr>
-                                <td class="fw-bold fst-italic text-muted table-success p-3">1</td>
+                                <td class="fw-bold fst-italic text-muted table-success p-3">2</td>
                                 <td class="fw-bold fst-italic text-muted table-danger p-3">3</td>
                                 <td class="fw-bold fst-italic text-muted table-warning p-3">4</td>
                                 <td class="fw-bold fst-italic text-muted table-primary p-3">5</td>

@@ -46,16 +46,16 @@
                     </div>
                     <div class="carousel-inner ps-5">
                         <div class="carousel-item active">
-                            <img src="/IMG/Cremeria/Carrusel-Cremeria-1.jpeg" class="d-block" width="80%" loading="lazy">
+                            <img src="/IMG/Cremeria/Carrusel-Cremeria-1.jpeg" class="d-block" width="400px" loading="lazy">
                         </div>
                         <div class="carousel-item">
-                            <img src="/IMG/Cremeria/Carrusel-Cremeria-2.jpg" class="d-block" width="80%" alt="...">
+                            <img src="/IMG/Cremeria/Carrusel-Cremeria-2.jpg" class="d-block" width="400px" loading="lazy">
                         </div>
                         <div class="carousel-item">
-                            <img src="/IMG/Cremeria/Carrusel-Cremeria-3.jpeg" class="d-block" width="80%" alt="...">
+                            <img src="/IMG/Cremeria/Carrusel-Cremeria-3.jpeg" class="d-block" width="400px" loading="lazy">
                         </div>
                         <div class="carousel-item">
-                            <img src="/IMG/Cremeria/Carrusel-Cremeria-4.jpg" class="d-block" width="80%" alt="...">
+                            <img src="/IMG/Cremeria/Carrusel-Cremeria-4.jpg" class="d-block" width="400px" loading="lazy">
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -68,13 +68,12 @@
                     </button>
                 </div>
             </div>
-            <div class="col-12 col-lg-4 align-self-center">
+            <div class="col-12 col-lg-4 ">
                 <p class="display-5 titulo text-center">Cremería</p>
                 <hr>
-                <p class="fs-5 texto lh-5 pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, iure pariatur. Ea accusantium nostrum ipsam neque omnis nemo repellendus, velit perferendis debitis, alias dolor quia aspernatur recusandae earum iure. Fugiat temporibus, minima corporis optio harum ad, rem, nemo ullam quae aspernatur repellat dolorum non vel.</p>
-                <p class="text-end text-success fs-4 pt-3">$500.00</p>
-                <div class="col-12 d-grid pt-3 mx-auto">
-                    <button class="btn btn-danger" type="button">Boton</button>    
+                <p class="h1 texto text-center lh-5 pt-3 ">Paquete ideal para automatizar tus tareas!!</p>
+                <div class="col-12 d-grid pt-5 mx-auto">
+                    <button class="btn btn-danger" type="button"><a href="http://wa.link/rsjw0t"></a> Mas Información</button>    
                 </div>
             </div>
         </div>

@@ -24,6 +24,7 @@
                         <h1 class="texto text-center ps-lg-5">!Llevalo a donde quieras!</h1>
                         <p class="text-center titulo fs-4 ps-lg-5">Accede desde cualquier dispositivo conectado a internet,<br>mantente al tanto de de la organizacion de tu negocio <br>y que todo siga en orden</p>
                     </div>
+                    <!-- VIDEO -->
                     <div class="col-12 col-md-5 text-end">
                         <video onloadedmetadata="this.muted=true" autoplay loop width="80%">
                             <source src="/IMG/Video-ERP.mp4">
@@ -45,9 +46,12 @@
                     <li >Escuela primaria®</li>
                     <li >Abarroteras®</li>
                     <li >Fruterías®</li>
-                    <li >Chamgarros</li>
+                    <li >Changarros</li>
                     <li >Carnicerías</li>
                     <li >Comercializadoras</li>
+                    <li >Mueblería</li>
+                    <li >Distribuidora</li>
+                    <li >Ferretería</li>
                 </ul>
             </div>
             <div class="col-12 col-lg-6">

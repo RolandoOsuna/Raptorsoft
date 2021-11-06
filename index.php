@@ -15,10 +15,10 @@
     <header class="header">
 <!-- NAVBAR -->
         <nav class="row align-items-start justify-content-end pt-3" style="margin-right: 0.1px; margin-left: 0.1px;">
-            <div class="col-12 col-md-6 col-lg-4 border-none d-flex  me-lg-1 rounded-pill shadow bg-light justify-content-around">
+            <div class="col-12 col-md-6 col-lg-3 border-none d-flex  me-lg-1 rounded-pill shadow bg-light justify-content-around">
                 <a href="ERP.php" class="text-decoration-none link-dark fs-5 titulo " >ERP</a> 
                 <a href="CRM.php" class="text-decoration-none link-dark fs-5 titulo" >CRM</a>
-                <a href="AtencionClientes.php" class="text-decoration-none link-dark fs-5 titulo " >Atención a Clientes</a>
+                <a href="Clientes.php" class="text-decoration-none link-dark fs-5 titulo " >Clientes</a>
             </div>
         </nav>
   
@@ -27,7 +27,7 @@
 <!-- SECCTION -->
     <section class="row  bg-seccion">
         <div class="col-12 col-md-6 col-lg-8">
-            <img class="img-fluid" src="/IMG/Seccion.jpg"  alt="">
+            <img class="img-fluid" src="/IMG/Seccion.jpg"  alt="" loading="lazy">
         </div>
         <div class="col-12 col-md-6 col-lg-4 justify-content-end text-white  ">
             <a class="text-decoration-none text-white" href="CRM.php">
@@ -46,17 +46,26 @@
         </div>
     </section>
 
-<!-- MAIN -->
-    <main class="container">
-        <div class="row">
-            <div class="col-12 my-3">
-                <p class="h1 text-center titulo">ERP Raptor</p>
-                <p class="text-center texto fs-5">Utiliza nuestras soluciones de software en la nube ya que es mucho más fácil gracias a nuestra lista de integraciones, sácale el mayor partido a las aplicaciones y a los servicios que te ayudan a hacer crecer a tu negocio.</p>
+    <div class="card border-0">
+        <div class="row margen justify-content-center">
+            <div class="col-12 col-md-7 align-self-center ps-lg-5">
+                <h1 class="texto text-center ">ERP Raptor</h1>
+                <p class="text-center titulo fs-4 px-4 ps-lg-0">Utiliza nuestras soluciones de software en la nube ya que es mucho más fácil gracias a nuestra lista de integraciones, sácale el mayor partido a las aplicaciones y a los servicios que te ayudan a hacer crecer a tu negocio.</p>
+            </div>
+            <!-- VIDEO -->
+            <div class="col-12 col-md-5 ">
+                <video class="" onloadedmetadata="this.muted=true" autoplay loop width="100%">
+                    <source src="/IMG/Video-Index.mp4">
+                </video>
             </div>
         </div>
+    </div>
 
+<!-- MAIN -->
+    <main class="container">
         <!-- ACORDEON -->
-        <div class="accordion mb-5" id="accordionPanelsStayOpenExample">
+        <div class="accordion mt-3 mb-5" id="accordionPanelsStayOpenExample">
+            <!-- RAPTOR -->
             <div class="accordion-item">
                 <h2 class="accordion-header" id="panelsStayOpen-headingOne">
                     <button 
@@ -73,10 +82,10 @@
                     <div class="accordion-body">
                         <div class="row align-items-center">
                             <div class="col-12 text-center d-block d-md-none ">
-                                <img class="img-fluid " src="/IMG/Raptor-card.jpg" width="50%" alt="">
+                                <img class="img-fluid " src="/IMG/Raptor-card.jpg" width="50%" alt="" loading="lazy">
                             </div>
                             <div class="col-md-6 col-lg-3 text-center d-none d-md-block ">
-                                <img class="img-fluid " src="/IMG/Raptor-card.jpg" width="80%" alt="">
+                                <img class="img-fluid " src="/IMG/Raptor-card.jpg" width="80%" alt="" loading="lazy">
                             </div>
                             <div class="col-12 col-md-6 col-lg-9 ">
                                 <h3>Raptor</h3>
@@ -86,12 +95,12 @@
                             </div>
                         </div>
                         <div class="col-12 text-end">
-                            <a href="Descripcion.php" class="text-decoration-none text-muted">Ver mas</a>
+                            <a href="ERP.php" class="text-decoration-none text-muted">Ver mas</a>
                         </div>
                     </div>
                 </div>
             </div>
-
+            <!-- CREMERIA -->
             <div class="accordion-item">
                 <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
                     <button 
@@ -108,10 +117,10 @@
                     <div class="accordion-body">
                         <div class="row">
                             <div class="col-12 text-center d-block d-md-none ">
-                                <img class="img-fluid " src="/IMG/Cremeria/Cremeria-card.jpg" width="80%" alt="">
+                                <img class="img-fluid " src="/IMG/Cremeria/Cremeria-card.jpg" width="80%" alt="" loading="lazy">
                             </div>
                             <div class="col-md-6 col-lg-3 text-center d-none d-md-block ">
-                                <img class="img-fluid " src="/IMG/Cremeria/Cremeria-card.jpg" width="100%" alt="">
+                                <img class="img-fluid " src="/IMG/Cremeria/Cremeria-card.jpg" width="100%" alt="" loading="lazy">
                             </div>
                             <div class="col-12 col-md-6 col-lg-9 ">
                                 <h1 class="ps-5 pt-3 text-success" style="letter-spacing: 10px;">Cremerías</h1>
@@ -123,6 +132,7 @@
                     </div>
                 </div>
             </div>
+            <!-- CHANGARRO -->
             <div class="accordion-item">
                 <h2 class="accordion-header" id="panelsStayOpen-headingThree">
                     <button 
@@ -137,17 +147,17 @@
                 <div id="panelsStayOpen-collapseThree" class="py-3 accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingThree">
                     <div class="row">
                         <div class="col-12 text-center d-block d-md-none ">
-                            <img class="img-fluid " src="/IMG/Abarrotes/Abarrotes-card2.jpeg" width="80%" alt="">
+                            <img class="img-fluid " src="/IMG/Abarrotes/Abarrotes-card2.jpeg" width="80%" alt="" loading="lazy">
                         </div>
                         <div class="col-md-6 col-lg-3 ps-4 text-center d-none d-md-block ">
-                            <img class="img-fluid " src="/IMG/Abarrotes/Abarrotes-card2.jpeg" width="100%" alt="">
+                            <img class="img-fluid " src="/IMG/Abarrotes/Abarrotes-card2.jpeg" width="100%" alt="" loading="lazy">
                         </div>
                         <div class="col-12 col-md-6 col-lg-9 ">
                             <h1 class="ps-5 pt-3 text-danger" style="letter-spacing: 10px;">Changarros</h1>
                             <!-- <p>Versión aplicada en tiendas de abarrotes</p> -->
                         </div>
                         <div class="col-12 text-end pe-4">
-                            <a href="Descripcion.php" class="text-decoration-none text-muted">Ver mas</a>
+                            <a href="Changarro.php" class="text-decoration-none text-muted">Ver mas</a>
                         </div>
                     </div>
                 </div>

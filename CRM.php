@@ -101,7 +101,7 @@
                     <hr>
                     <p class="text-light">
                         <img class="pb-1" src="/IMG/cloud-plus-fill.svg" width="8%" alt="">
-                        <span class="pt-5 ps-3">Hosting: <i>8GB</i></span>
+                        <span class="pt-5 ps-3">Hosting: <i>16GB</i></span>
                     </p>
                 </div>
                 <div class="d-grid gap-2">
@@ -163,7 +163,7 @@
                     <hr>
                     <p class="text-dark">
                         <img class="pb-1" src="/IMG/cloud-plus-fill.svg" width="8%" alt="">
-                        <span class="pt-5 ps-3">Hosting: <i>8GB</i></span>
+                        <span class="pt-5 ps-3">Hosting: <i>16GB</i></span>
                     </p>
                 </div>
                 <div class="d-grid gap-2">
