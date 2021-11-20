@@ -37,8 +37,8 @@
     <section class="container">
         <div class="row align-items-center shadow justify-content-lg-center mt-3 bg-light p-4 mb-4">
             <h2 class="text-center texto" style="color: #E5BE51;">Accede a la automatización de tu negocio</h1>
-            <h3>Productos y versiones</h3>
             <p class="fs-5 texto">Utiliza nuestras soluciones de software en la nube ya que es mucho más fácil gracias anuestra lista de integraciones, sácale el mayor partido a las aplicaciones y a los servicios que te ayudan a hacer crecer a tu negocio.</p>
+            <h3>Productos y versiones</h3>
             <div class="col-12 col-lg-4 ">
                 <ul class="ps-5 fs-4 arial">
                     <li >Cremerias ®</li>
@@ -46,16 +46,16 @@
                     <li >Escuela primaria®</li>
                     <li >Abarroteras®</li>
                     <li >Fruterías®</li>
-                    <li >Changarros</li>
-                    <li >Carnicerías</li>
-                    <li >Comercializadoras</li>
-                    <li >Mueblería</li>
-                    <li >Distribuidora</li>
-                    <li >Ferretería</li>
+                    <li >Changarros®</li>
+                    <li >Carnicerías®</li>
+                    <li >Comercializadoras®</li>
+                    <li >Mueblerías®</li>
+                    <li >Distribuidoras®</li>
+                    <li >Ferreterías®</li>
                 </ul>
             </div>
             <div class="col-12 col-lg-6">
-                <img class="img-fluid" src="/IMG/Servicios.png" width="" alt="">
+                <img class="img-fluid" src="/IMG/Servicios.jpg" width="" alt="">
             </div>
         </div>      
     </section>

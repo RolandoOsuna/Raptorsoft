@@ -26,6 +26,7 @@
 
     <section class="row margen bg-secction-crm justify-content-end">
         <div class="col-12 col-lg-6 align-self-center px-5">
+            <h2 class="ff-raleway text-center text-white">Consigue tus objetivos!!</h2>
             <p class="text-center fs-5 ff-raleway text-white">
                 Añade tus proyectos para que tus clientes lo conozcan desde tu sitio web. <br>
                 Realiza contratos fácilmente rellenando los recuadros con los datos marcados, lleva un mejor control y lo tendrás disponible en todo momento.
