@@ -39,7 +39,7 @@
                     <a class="text-decoration-none link-light" aria-current="page" href="CRM.php">CRM</a>
                 </li>
                 <li class="nav-item pe-md-3">
-                    <a class="text-decoration-none link-light" aria-current="page" href="Contacto.php">Contacto</a>
+                    <a class="text-decoration-none link-light" aria-current="page" href="Clientes.php">Contacto</a>
                 </li>
             </ul>
         </div>
