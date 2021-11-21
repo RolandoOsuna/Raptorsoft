@@ -17,7 +17,7 @@
                                         <span class="text-white ">$4,999.00</span><br> 
                                         <span class="text-white-50">MXN</span><br>
                                         <span class="text-muted">pago anual <br>$1,000</span><br>
-                                        <b>Licencia 2 Usuarios</b>
+                                        <b>2 Usuarios</b>
                                     </p>
                                 </th>
                                 <th class="fw-normal">
@@ -26,7 +26,7 @@
                                         <span class="text-white ">$8,999.00</span><br> 
                                         <span class="text-white-50">MXN</span><br>
                                         <span class="text-muted">pago anual <br>$1,800</span><br>
-                                        <b>Licencia 3 Usuarios</b>
+                                        <b>3 Usuarios</b>
                                     </p>
                                 </th>
                                 <th class="fw-normal">
@@ -35,7 +35,7 @@
                                         <span class="text-white ">$11,999.00</span><br> 
                                         <span class="text-white-50">MXN</span><br>
                                         <span class="text-muted">pago anual <br>$2,500</span><br>
-                                        <b>Licencia 4 Usuarios</b>
+                                        <b>4 Usuarios</b>
                                     </p>
                                 </th>
                                 <th class="fw-normal">
@@ -44,7 +44,7 @@
                                         <span class="text-white ">$17,999.00</span><br> 
                                         <span class="text-white-50">MXN</span><br>
                                         <span class="text-muted">pago anual <br>$3,500</span><br>
-                                        <b>Licencia 5 Usuarios</b>
+                                        <b>5 Usuarios</b>
                                     </p>
                                 </th>
                                 <th class="pb-5 pb-sm-4 pb-lg-4 ">

@@ -7,13 +7,14 @@
     <link rel="stylesheet" href="/BOOTSTRAP/css/bootstrap.min.css">
     <link rel="stylesheet" href="/CSS/estilos.css">
     <link rel="stylesheet" href="/CSS/Normalize.css">
-    <title>Descripcion</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="/IMG/Raptor-Navbar.png">
+    <title>Cremeria</title>
 </head>
 <body style="background-color: #f0f0f0;">
 <?php require('NavBar.php') ?>
     <header class="container">
         <div class="row bg-light p-3 my-3 shadow rounded">
-            <div class="col-12 col-lg-8 ps-5">
+            <div class="col-12 col-md-6 col-lg-7 ps-0 ps-lg-5">
                 <!-- CARRUSEL -->
                 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
@@ -71,9 +72,9 @@
             <div class="col-12 col-lg-4 ">
                 <p class="display-5 titulo text-center">Cremería</p>
                 <hr>
-                <p class="h1 texto text-center lh-5 pt-3 ">Paquete ideal para automatizar tus tareas!!</p>
+                <p class="h1 texto text-center lh-5 pt-5 mt-3 ">Paquete ideal para automatizar tus tareas!!</p>
                 <div class="col-12 d-grid pt-5 mx-auto">
-                    <button class="btn btn-danger" type="button"><a href="http://wa.link/rsjw0t"></a> Mas Información</button>    
+                    <button class="btn btn-danger" type="button"><a class="text-decoration-none text-white" href="http://wa.link/rsjw0t"> Mas Información</a> </button>   
                 </div>
             </div>
         </div>

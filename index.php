@@ -21,7 +21,15 @@
                 <a href="Clientes.php" class="text-decoration-none link-dark fs-5 titulo " >Clientes</a>
             </div>
         </nav>
-  
+
+        <div class="col-12 col-lg-6 ps-lg-3 d-none d-md-block">
+            <h1 class="ml14">
+                <span class="text-wrapper">
+                    <span class="letters">Bienvenido a Raptorsoft</span>
+                    <span class="line"></span>
+                </span>
+            </h1>
+        </div>
     </header>
 
 <!-- SECCTION -->
@@ -177,5 +185,7 @@
 <!-- FOOTER -->
 <?php require('footer.php') ?>
 <script src="/BOOTSTRAP/js/bootstrap.bundle.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+<script src="js.js"></script>
 </body>
 </html>

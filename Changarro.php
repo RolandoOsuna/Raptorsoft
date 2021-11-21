@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="/CSS/Normalize.css">
     <link rel="icon" type="image/png" sizes="32x32" href="/IMG/Raptor-Navbar.png">
 
-    <title>Descripcion</title>
+    <title>Changarros</title>
 </head>
 <body style="background-color: #f0f0f0;">
 <?php require('NavBar.php') ?>
@@ -71,12 +71,11 @@
                 </div>
             </div>
             <div class="col-12 col-lg-4 ">
-                <p class="display-5 titulo text-center">Changarro</p>
+                <p class="display-5 titulo text-center">Changarros</p>
                 <hr>
-                <p class="h1 texto text-center lh-5 pt-3 ">Optimizado para negocios Medianos y pequeños</p>
+                <p class="h1 texto text-center lh-5 pt-5 mt-3 ">Optimizado para negocios Medianos y pequeños</p>
                 <div class="col-12 d-grid pt-5 mx-auto">
-                    <button class="btn btn-danger" type="button"><a href="http://wa.link/rsjw0t"></a> Mas Información</button>    
-                </div>
+                <button class="btn btn-danger" type="button"><a class="text-decoration-none text-white" href="http://wa.link/rsjw0t"> Mas Información</a> </button>                   </div>
             </div>
         </div>
     </header>   

@@ -35,13 +35,17 @@
     </section>
     
     
-    
+    <div class="container mt-3">
+        <h1 class="texto">
+            <p class="text-center">!Obtén increíbles beneficios y Contrata ahora!</p>
+        </h1>
+    </div>
     
       
     
     <!-- CARDS -->
 <section >
-    <div class="row row-cols-1 row-cols-md-3 g-4 margen px-md-5 pb-3 mt-3" style="margin-left: 0.1px;">
+    <div class="row row-cols-1 row-cols-md-3 g-4 margen px-md-5 pb-3" style="margin-left: 0.1px;">
     <!-- Jugador Casual -->
         <div class="col">
             <div class="card bg-success shadow">
@@ -175,8 +179,38 @@
     </div>
 </section>
 
-<section>        
-        <div class="row mt-1 margen bg-light align-items-center shadow">
+    <section class="bg-seccionCRM py-3">
+        <div class="container fs-5 text-white">
+            <div class="row align-items-center justify-content-lg-center" style="margin-right: 0.1px;">
+                <div class="col-3 col-md-2 col-lg-1"><img class="" src="/IMG/settings.png" width="65px"/></div>
+                <div class="col-9">
+                    <p><span class="ff-raleway fw-bold">Raptorsoft</span> es una poderosa herramienta para impulsar el crecimiento, rentabilidad y competitividad de tu empresa.</p>
+                </div>
+            </div>
+            <div class="row align-items-center justify-content-lg-center ">
+                <div class="col-3 col-md-2 col-lg-1"><img class="" src="/IMG/money-svgrepo-com.svg" width="65px"/></div>
+                <div class="col-9">
+                    <p><span class="ff-raleway fw-bold">Raptorsoft</span> ideal para elevar la rentabilidad de tu empresa y cumplir con las tareas diarias.</p>
+                </div>
+            </div>
+            <div class="row align-items-center justify-content-lg-center ">
+                <div class="col-3 col-md-2 col-lg-1"><img class="" src="/IMG/skyscraper.png" width="65px"/></div>
+                <div class="col-9">
+                    <p>¿Tu negocio requiere de un sistema versátil y amigable? Raptorsoft puede adaptarse a los requerimientos de tu empresa.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container py-3">
+        <h1 class="text-center">Descubre más Información</h1>
+        <p class="text-center"><span class="ff-raleway fw-bold">Raptorsoft</span> la primera plataforma en la nube en incluir funcionalidades que aumentan la productividad y adaptabilidad a la logística de tu negocio. Contacta con nosotros valido
+        solo para plan <span class="ff-raleway">Enterprise.</span></p>
+    </section>
+
+
+    <section>        
+        <div class="row margen bg-light align-items-center shadow">
             <aside class="col-12 col-md-6 col-lg-7 text-center ms-1 ms-md-0">
                 <img class="img-fluid float-start " src="/IMG/Section-inmobiliaria.jpg"  width="100%" alt="">
             </aside>
