@@ -168,7 +168,7 @@
                     <hr>
                     <p class="text-dark">
                         <img class="pb-1" src="/IMG/cloud-plus-fill.svg" width="8%" alt="">
-                        <span class="pt-5 ps-3">Hosting: <i>16GB</i></span>
+                        <span class="pt-5 ps-3">Hosting: <i>32GB</i></span>
                     </p>
                 </div>
                 <div class="d-grid gap-2">
@@ -196,7 +196,7 @@
             <div class="row align-items-center justify-content-lg-center ">
                 <div class="col-3 col-md-2 col-lg-1"><img class="" src="/IMG/skyscraper.png" width="65px"/></div>
                 <div class="col-9">
-                    <p>¿Tu negocio requiere de un sistema versátil y amigable? Raptorsoft puede adaptarse a los requerimientos de tu empresa.</p>
+                    <p>¿Tu negocio requiere de un sistema versátil y amigable? <span class="ff-raleway fw-bold">Raptorsoft</span> puede adaptarse a los requerimientos de tu empresa.</p>
                 </div>
             </div>
         </div>
@@ -206,6 +206,171 @@
         <h1 class="text-center">Descubre más Información</h1>
         <p class="text-center"><span class="ff-raleway fw-bold">Raptorsoft</span> la primera plataforma en la nube en incluir funcionalidades que aumentan la productividad y adaptabilidad a la logística de tu negocio. Contacta con nosotros valido
         solo para plan <span class="ff-raleway">Enterprise.</span></p>
+    </section>
+
+    <!-- FULL -->
+    <section class="bg-crm pb-3 d-none d-md-block">
+        <h1 class="text-light ps-5"><u>Herramientas Integradas</u></h1>
+        <!-- 1 -->
+        <div class="row margen ">
+            <div class="col text-center">
+                <img class="img-fluid transicion rounded-pill  bg-" src="/IMG/people-fill.svg" width="75px" alt="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="75px" height="65px" fill="currentColor" class="img-fluid ms-5 transicion rounded-pill bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                </svg>
+            </div>
+        </div>
+        
+        <!-- 2 -->
+        <div class="row align-items-center justify-content-center margen mt-3 ">
+            <div class="col-4 text-end">
+                <svg xmlns="http://www.w3.org/2000/svg" width="75px" height="65px" fill="currentColor" class="img-fluid transicion rounded-pill bg- bi bi-card-text" viewBox="0 0 16 16">
+                    <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"/>
+                    <path d="M3 5.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 8a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 8zm0 2.5a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5z"/>
+                </svg>
+            </div>
+            <div class="col-2 text-center"></div>
+            <div class="col-4 text-start">
+                <img class="img-fluid transicion rounded-pill bg-" src="/IMG/house-door-fill.svg"  width="75px" alt="">
+            </div>
+        </div>
+        
+        <!-- 3 -->
+        <div class="row align-items-center margen my-5 px-5">
+            <div class="col text-end ms-5">
+                <svg xmlns="http://www.w3.org/2000/svg" width="80px" height="60px" fill="currentColor" class="img-fluid transicion rounded-pill  bi bi-journal-text" viewBox="0 0 16 16">
+                    <path d="M5 10.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
+                    <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z"/>
+                    <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z"/>
+                </svg>
+            </div>
+            <div class="col text-center">
+                <img class="" src="/IMG/CRM.png" width="" alt="">
+            </div>
+            <div class="col text-start me-5 ">
+                <svg xmlns="http://www.w3.org/2000/svg" class="img-fluid transicion rounded-pill icon icon-tabler icon-tabler-tools" width="80px" height="65px" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <path d="M3 21h4l13 -13a1.5 1.5 0 0 0 -4 -4l-13 13v4" />
+                                <line x1="14.5" y1="5.5" x2="18.5" y2="9.5" />
+                                <polyline points="12 8 7 3 3 7 8 12" />
+                                <line x1="7" y1="8" x2="5.5" y2="9.5" />
+                                <polyline points="16 12 21 17 17 21 12 16" />
+                                <line x1="16" y1="17" x2="14.5" y2="18.5" />
+                    </svg>
+            </div>
+        </div>
+
+        <!-- 2 -->
+        <div class="row align-items-center justify-content-center margen mb-3 ">
+            <div class="col-4 text-end">
+                <img class="img-fluid transicion rounded-pill  bg-" src="/IMG/cloud-plus-fill.svg" width="75px" alt="">
+            </div>
+            <div class="col-2 text-center"></div>
+            <div class="col-4 text-start">
+                <img class="img-fluid transicion rounded-pill bg-" src="/IMG/1976101.svg"  width="79px" alt="">
+            </div>
+        </div>
+
+        <!-- 1 -->
+        <div class="row margen ">
+            <div class="col text-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="75px" height="65px" fill="currentColor" class="img-fluid transicion rounded-pill bi bi-envelope-fill" viewBox="0 0 16 16">
+                    <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
+                </svg>
+                <img class="img-fluid transicion rounded-pill ms-5" src="/IMG/casco.png" width="75px" height="60px" alt="" srcset="">
+            </div>
+        </div>
+    
+        <div class="row justify-content-center margen">
+            <div class="col-10 text-center lead">
+                <p class="">Almacenamiento en SSD | Transferencia mensual ilimitada | Panel de administración (Centro de Datos) |(Aplicaciones listas para instalar) | Punto de venta, app android.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- RESPONSIVE -->
+    <section class="bg-crm pb-3 d-block d-md-none">
+        <h3 class="text-light ps-1 pb-2 "><u>Herramientas Integradas</u></h3>
+        <!-- 1 --> 
+        <div class="row margen ">
+            <div class="col text-center">
+                <img class="img-fluid transicion rounded-pill  bg-" src="/IMG/people-fill.svg" width="60px" alt="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="60px" height="55px" fill="currentColor" class="img-fluid ms-5 transicion rounded-pill bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                </svg>
+            </div>
+        </div>
+        
+        <!-- 2 -->
+        <div class="row align-items-center justify-content-evenly margen mt-3 ">
+            <div class="col-3 text-start">
+                <svg xmlns="http://www.w3.org/2000/svg" width="60px" height="50px" fill="currentColor" class="img-fluid transicion rounded-pill bg- bi bi-card-text" viewBox="0 0 16 16">
+                    <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"/>
+                    <path d="M3 5.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 8a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 8zm0 2.5a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5z"/>
+                </svg>
+            </div>
+            <div class="col-1 text-center"></div>
+            <div class="col-3 text-start">
+                <img class="img-fluid transicion rounded-pill bg-" src="/IMG/house-door-fill.svg"  width="60px" alt="">
+            </div>
+        </div>
+        
+        <!-- 3 -->
+        <div class="row align-items-center margen  my-3">
+            <div class="col text-end ms-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="80px" height="65px" fill="currentColor" class="img-fluid transicion rounded-pill  bi bi-journal-text" viewBox="0 0 16 16">
+                    <path d="M5 10.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
+                    <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z"/>
+                    <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z"/>
+                </svg>
+            </div>
+            <div class="col text-center">
+                <img class="" src="/IMG/CRM.png" width="190px" alt="">
+            </div>
+            <div class="col text-start ">
+                <svg xmlns="http://www.w3.org/2000/svg" class="img-fluid transicion rounded-pill icon icon-tabler icon-tabler-tools" width="80px" height="65px" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <path d="M3 21h4l13 -13a1.5 1.5 0 0 0 -4 -4l-13 13v4" />
+                                <line x1="14.5" y1="5.5" x2="18.5" y2="9.5" />
+                                <polyline points="12 8 7 3 3 7 8 12" />
+                                <line x1="7" y1="8" x2="5.5" y2="9.5" />
+                                <polyline points="16 12 21 17 17 21 12 16" />
+                                <line x1="16" y1="17" x2="14.5" y2="18.5" />
+                </svg>
+            </div>
+        </div>
+
+        <!-- 2 -->
+        <div class="row align-items-center justify-content-evenly margen mb-3 ">
+            <div class="col-3 text-start">
+                <img class="img-fluid transicion rounded-pill  bg-" src="/IMG/cloud-plus-fill.svg" width="60px" alt="">
+            </div>
+            <div class="col-1 text-center"></div>
+            <div class="col-3 text-start">
+                <img class="img-fluid transicion rounded-pill bg-" src="/IMG/1976101.svg"  width="60px" alt="">
+            </div>
+        </div>
+
+
+        <!-- 1 -->
+        <div class="row margen ">
+            <div class="col text-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="60px" height="55px" fill="currentColor" class="img-fluid transicion rounded-pill bi bi-envelope-fill" viewBox="0 0 16 16">
+                    <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
+                </svg>
+                <img class="img-fluid transicion rounded-pill ms-5" src="/IMG/casco.png" width="60px" height="60px" alt="" srcset="">
+            </div>
+        </div>
+
+        <div class="row justify-content-center margen">
+            <div class="col-10 text-center fw-5">
+                <p class="">Almacenamiento en SSD | Transferencia mensual ilimitada | Panel de administración (Centro de Datos) |(Aplicaciones listas para instalar) | Punto de venta, app android.</p>
+            </div>
+        </div>
+    
+    
+        
     </section>
 
 

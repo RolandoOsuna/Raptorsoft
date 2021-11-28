@@ -31,7 +31,7 @@
                                 </th>
                                 <th class="fw-normal">
                                     <p class="">
-                                        <span class="text-info ">Ultimate</span><br>
+                                        <span class="text-info ">Profecional</span><br>
                                         <span class="text-white ">$11,999.00</span><br> 
                                         <span class="text-white-50">MXN</span><br>
                                         <span class="text-muted">pago anual <br>$2,500</span><br>
@@ -40,11 +40,11 @@
                                 </th>
                                 <th class="fw-normal">
                                     <p class="">
-                                        <span class="text-info ">Multiempresa</span><br>
+                                        <span class="text-info ">Ultimate</span><br>
                                         <span class="text-white ">$17,999.00</span><br> 
                                         <span class="text-white-50">MXN</span><br>
                                         <span class="text-muted">pago anual <br>$3,500</span><br>
-                                        <b>5 Usuarios</b>
+                                        <b>6 Usuarios</b>
                                     </p>
                                 </th>
                                 <th class="pb-5 pb-sm-4 pb-lg-4 ">

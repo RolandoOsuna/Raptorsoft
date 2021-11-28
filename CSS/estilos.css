@@ -117,3 +117,22 @@
     font-family: 'Lora';
 }
 
+.transicion{
+    transition: 0.4s linear;
+}
+.transicion:hover{
+    box-shadow: 0 .5rem 1rem rgb(56, 56, 56)!important;
+    width: 90px;
+}
+
+.transicionr{
+transition: 0.4s linear;
+}
+.transicionr:hover{
+    box-shadow: 0 .5rem 1rem rgb(56, 56, 56)!important;
+    width: 75px;
+}
+
+.bg-crm{
+    background-image: linear-gradient(to right bottom, #4f5860, #787d84, #a2a4a9, #cdced0, #f9f9f9);
+}
