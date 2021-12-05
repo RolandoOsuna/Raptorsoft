@@ -69,26 +69,17 @@
                     </button>
                 </div>
             </div>
-            <div class="col-12 col-lg-4 ">
+            <div class="col-12 col-lg-4 d-flex flex-column bd-highlight">
                 <p class="display-5 titulo text-center">Cremería</p>
                 <hr>
                 <p class="h1 texto text-center lh-5 pt-5 mt-3 ">Paquete ideal para automatizar tus tareas!!</p>
-                <div class="col-12 d-grid pt-5 mx-auto">
-                    <button class="btn btn-danger" type="button"><a class="text-decoration-none text-white" href="http://wa.link/rsjw0t"> Mas Información</a> </button>   
+                <div class="col-12 d-grid pt-5 mx-auto bd-highlight mt-auto">
+                    <button class="btn btn-danger" type="button"><a class="text-decoration-none text-white" href="http://wa.link/rsjw0t"> Mas Información</a></button>   
                 </div>
             </div>
         </div>
     </header>   
     
-    <section class="container">
-        <div class="row">
-            <div class="col-12" style="height: 400px;">
-
-            </div>
-        </div>
-    </section>
-
-
 <?php require('footer.php') ?>
 <script src="/BOOTSTRAP/js/bootstrap.bundle.js"></script>
 </body>

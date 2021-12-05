@@ -70,12 +70,13 @@
                     </button>
                 </div>
             </div>
-            <div class="col-12 col-lg-4 ">
+            <div class="col-12 col-lg-4 d-flex flex-column bd-highlight">
                 <p class="display-5 titulo text-center">Changarros</p>
                 <hr>
                 <p class="h1 texto text-center lh-5 pt-5 mt-3 ">Optimizado para negocios Medianos y pequeños</p>
-                <div class="col-12 d-grid pt-5 mx-auto">
-                <button class="btn btn-danger" type="button"><a class="text-decoration-none text-white" href="http://wa.link/rsjw0t"> Mas Información</a> </button>                   </div>
+                <div class="col-12 d-grid pt-5 mx-auto bd-highlight mt-auto">
+                    <button class="btn btn-danger" type="button"><a class="text-decoration-none text-white" href="http://wa.link/rsjw0t"> Mas Información</a> </button>
+                </div>
             </div>
         </div>
     </header>   

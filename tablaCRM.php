@@ -35,7 +35,7 @@
                                     </p>
                                 </th>
                                 <th class="pb-5 pb-sm-5 pb-lg-5 ">
-                                    <img src="/IMG/Raptor-Navbar.png" width="80px" alt="">
+                                    <img src="/IMG/Raptor-Navbar2.png" width="200px" alt="">
                                 </th>
                             </tr>
                         </thead>

@@ -16,7 +16,7 @@
 </nav>
 <nav class="navbar navbar-expanded-md bg-navbar navbar-light text-end d-block d-lg-none">
     <div class="container-fluid">
-        <a class="navbar-brand" href="index.php"><img class="img-fluid" src="/IMG/Raptor-Navbar.png" width="75px"alt=""></a>
+        <a class="navbar-brand" href="index.php"><img class="img-fluid" src="/IMG/Raptor-Navbar2.png" width="175px"alt=""></a>
         <button
             class="navbar-toggler bg-light"
             type="button"

@@ -26,7 +26,7 @@
 
     <section class="row margen bg-secction-crm justify-content-end">
         <div class="col-12 col-lg-6 align-self-center px-5">
-            <h2 class="ff-raleway text-center text-white">Consigue tus objetivos!!</h2>
+            <h2 class="ff-raleway text-center text-white">Consigue tus objetivos inmobiliarios!!</h2>
             <p class="text-center fs-5 ff-raleway text-white">
                 Añade tus proyectos para que tus clientes lo conozcan desde tu sitio web. <br>
                 Realiza contratos fácilmente rellenando los recuadros con los datos marcados, lleva un mejor control y lo tendrás disponible en todo momento.
@@ -53,10 +53,10 @@
                     <h3 class="card-title text-center text-light">Jugador Casual</h3>
                 </div>
                 <div class="card-body text-white pb-0">
-                    <h4 class="text-center">$299.00</h4>
-                    <p class="text-center"><span class="text-white-50">MXM al MES</span> <br><span class="text-black-50">(pago mensual)<br><cite>Anualidad $1,000</cite></span></p>
+                    <h4 class="text-center">$9,999.00</h4>
+                    <p class="text-center"><span class="text-white-50">Anualidad $2,500</span>
                     <p class="fs-5 text-center">Tu proyecto personal</p>
-                    <p class="text-light"><img class="" src="/IMG/people-fill.svg"width="8%" alt="Usuarios Ilimitados"> <span class="pt-5 ps-3">1 Usuario</span> </p>
+                    <p class="text-light"><img class="" src="/IMG/people-fill.svg"width="8%" alt="Usuarios Ilimitados"> <span class="pt-5 ps-3">2 Usuario</span> </p>
                     <hr>
                     <p class="text-light"><img class="pb-1" src="/IMG/house-door-fill.svg"  width="8%" alt=""><span class="pt-5 ps-3"> Inmobiliario</span></p>
                     <hr>
@@ -74,12 +74,12 @@
                     <h3 class="card-title text-center text-light">Aficionado Intermedio</h3>
                 </div>
                 <div class="card-body text-white pb-0">
-                    <h4 class="text-center">$599.00</h4>
-                    <p class="text-center"><span class="text-white-50">MXM al MES</span> <br><span class="text-black-50">(pago mensual)<br><cite>Anualidad $1,500</cite></span></p>
+                    <h4 class="text-center">$18,999.00</h4>
+                    <p class="text-center"><span class="text-white-50">Anualidad $3,000</span></p>
                     <p class="fs-5 text-center">Atención telefónica por expertos </p>
                     <p class="text-light">
                         <img class="" src="/IMG/people-fill.svg"width="8%" alt="Usuarios Ilimitados"> 
-                        <span class="pt-5 ps-3">2 Usuarios</span> 
+                        <span class="pt-5 ps-3">4 Usuarios</span> 
                     </p>
                     <hr>
                     <p class="text-light">
@@ -110,7 +110,7 @@
                     </p>
                 </div>
                 <div class="d-grid gap-2">
-                    <button type="button" class="btn btn-warning"><a class="text-decoration-none link-dark" href="http://wa.link/rsjw0t">Contratar Ahora!</a></button>
+                    <button type="button" class="btn btn-success"><a class="text-decoration-none link-dark" href="http://wa.link/rsjw0t">Contratar Ahora!</a></button>
                 </div>
             </div>
         </div>
@@ -121,12 +121,12 @@
                     <h3 class="card-title text-center text-dark">Aficionado Avanzado</h3>
                 </div>
                 <div class="card-body text-dark pb-0">
-                    <h4 class="text-center">$999.00</h4>
-                    <p class="text-center"><span class="text-black-50">MXM al MES</span> <br><span class="text-white-50">(pago mensual)<br><cite><cite></cite>Anualidad $2,000</cite></span></p>
+                    <h4 class="text-center">$24,999.00</h4>
+                    <p class="text-center"><span class="text-black-50">Anualidad $4,000</span> 
                     <p class="fs-5 text-center">Tu negocio al siguiente nivel.</p>
                     <p class="text-dark">
                         <img class="" src="/IMG/people-fill.svg"width="8%" alt="Usuarios Ilimitados"> 
-                        <span class="pt-5 ps-3">3 Usuarios</span> 
+                        <span class="pt-5 ps-3">6 Usuarios</span> 
                     </p>
                     <hr>
                     <p class="text-dark">
@@ -172,7 +172,7 @@
                     </p>
                 </div>
                 <div class="d-grid gap-2">
-                    <button type="button" class="btn btn-outline-light"><a class="text-decoration-none link-dark" href="http://wa.link/rsjw0t">Contratar Ahora!</a></button>
+                    <button type="button" class="btn btn-danger"><a class="text-decoration-none link-dark" href="http://wa.link/rsjw0t">Contratar Ahora!</a></button>
                 </div>
             </div>
         </div>
@@ -184,7 +184,7 @@
             <div class="row align-items-center justify-content-lg-center" style="margin-right: 0.1px;">
                 <div class="col-3 col-md-2 col-lg-1"><img class="" src="/IMG/settings.png" width="65px"/></div>
                 <div class="col-9">
-                    <p><span class="ff-raleway fw-bold">Raptorsoft</span> es una poderosa herramienta para impulsar el crecimiento, rentabilidad y competitividad de tu empresa.</p>
+                    <p><span class="ff-raleway fw-bold">Raptorsoft</span> es una poderosa herramienta para impulsar el crecimiento, rentabilidad y competitividad de tu empresa inmobiliaria.</p>
                 </div>
             </div>
             <div class="row align-items-center justify-content-lg-center ">
@@ -211,7 +211,6 @@
     <!-- FULL -->
     <section class="bg-crm pb-3 d-none d-md-block">
         <h1 class="text-light ps-5"><u>Herramientas Integradas</u></h1>
-        <!-- 1 -->
         <div class="row margen ">
             <div class="col text-center">
                 <img class="img-fluid transicion rounded-pill  bg-" src="/IMG/people-fill.svg" width="75px" alt="">
@@ -221,7 +220,6 @@
             </div>
         </div>
         
-        <!-- 2 -->
         <div class="row align-items-center justify-content-center margen mt-3 ">
             <div class="col-4 text-end">
                 <svg xmlns="http://www.w3.org/2000/svg" width="75px" height="65px" fill="currentColor" class="img-fluid transicion rounded-pill bg- bi bi-card-text" viewBox="0 0 16 16">
@@ -235,7 +233,6 @@
             </div>
         </div>
         
-        <!-- 3 -->
         <div class="row align-items-center margen my-5 px-5">
             <div class="col text-end ms-5">
                 <svg xmlns="http://www.w3.org/2000/svg" width="80px" height="60px" fill="currentColor" class="img-fluid transicion rounded-pill  bi bi-journal-text" viewBox="0 0 16 16">
@@ -260,7 +257,6 @@
             </div>
         </div>
 
-        <!-- 2 -->
         <div class="row align-items-center justify-content-center margen mb-3 ">
             <div class="col-4 text-end">
                 <img class="img-fluid transicion rounded-pill  bg-" src="/IMG/cloud-plus-fill.svg" width="75px" alt="">
@@ -271,7 +267,6 @@
             </div>
         </div>
 
-        <!-- 1 -->
         <div class="row margen ">
             <div class="col text-center">
                 <svg xmlns="http://www.w3.org/2000/svg" width="75px" height="65px" fill="currentColor" class="img-fluid transicion rounded-pill bi bi-envelope-fill" viewBox="0 0 16 16">
@@ -283,7 +278,7 @@
     
         <div class="row justify-content-center margen">
             <div class="col-10 text-center lead">
-                <p class="">Almacenamiento en SSD | Transferencia mensual ilimitada | Panel de administración (Centro de Datos) |(Aplicaciones listas para instalar) | Punto de venta, app android.</p>
+                <p class="">Almacenamiento en SSD | Transferencia mensual ilimitada | Panel de administración (Centro de Datos) | Sistema Web.</p>
             </div>
         </div>
 
@@ -292,7 +287,7 @@
     <!-- RESPONSIVE -->
     <section class="bg-crm pb-3 d-block d-md-none">
         <h3 class="text-light ps-1 pb-2 "><u>Herramientas Integradas</u></h3>
-        <!-- 1 --> 
+
         <div class="row margen ">
             <div class="col text-center">
                 <img class="img-fluid transicion rounded-pill  bg-" src="/IMG/people-fill.svg" width="60px" alt="">
@@ -302,7 +297,6 @@
             </div>
         </div>
         
-        <!-- 2 -->
         <div class="row align-items-center justify-content-evenly margen mt-3 ">
             <div class="col-3 text-start">
                 <svg xmlns="http://www.w3.org/2000/svg" width="60px" height="50px" fill="currentColor" class="img-fluid transicion rounded-pill bg- bi bi-card-text" viewBox="0 0 16 16">
@@ -316,7 +310,6 @@
             </div>
         </div>
         
-        <!-- 3 -->
         <div class="row align-items-center margen  my-3">
             <div class="col text-end ms-2">
                 <svg xmlns="http://www.w3.org/2000/svg" width="80px" height="65px" fill="currentColor" class="img-fluid transicion rounded-pill  bi bi-journal-text" viewBox="0 0 16 16">
@@ -341,7 +334,6 @@
             </div>
         </div>
 
-        <!-- 2 -->
         <div class="row align-items-center justify-content-evenly margen mb-3 ">
             <div class="col-3 text-start">
                 <img class="img-fluid transicion rounded-pill  bg-" src="/IMG/cloud-plus-fill.svg" width="60px" alt="">
@@ -353,7 +345,6 @@
         </div>
 
 
-        <!-- 1 -->
         <div class="row margen ">
             <div class="col text-center">
                 <svg xmlns="http://www.w3.org/2000/svg" width="60px" height="55px" fill="currentColor" class="img-fluid transicion rounded-pill bi bi-envelope-fill" viewBox="0 0 16 16">
@@ -365,7 +356,7 @@
 
         <div class="row justify-content-center margen">
             <div class="col-10 text-center fw-5">
-                <p class="">Almacenamiento en SSD | Transferencia mensual ilimitada | Panel de administración (Centro de Datos) |(Aplicaciones listas para instalar) | Punto de venta, app android.</p>
+                <p class="">Almacenamiento en SSD | Transferencia mensual ilimitada | Panel de administración (Centro de Datos) | Sistema Web.</p>
             </div>
         </div>
     

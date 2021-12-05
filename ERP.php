@@ -38,20 +38,22 @@
         <div class="row align-items-center shadow justify-content-lg-center mt-3 bg-light p-4 mb-4">
             <h2 class="text-center texto" style="color: #E5BE51;">Accede a la automatización de tu negocio</h1>
             <p class="fs-5 texto">Utiliza nuestras soluciones de software en la nube ya que es mucho más fácil gracias anuestra lista de integraciones, sácale el mayor partido a las aplicaciones y a los servicios que te ayudan a hacer crecer a tu negocio.</p>
-            <h3>Productos y versiones</h3>
+            <h3 class="">Productos y versiones</h3>
             <div class="col-12 col-lg-4 ">
                 <ul class="ps-5 fs-4 arial">
-                    <li >Cremerias ®</li>
-                    <li >Panaderías®</li>
+                    <li ><a class="text-decoration-none link-dark" href="/Cremeria.php"><b>Cremerias®</b></a> </li>
+                    <li ><a class="text-decoration-none link-dark" href="/Panaderia.php"><b>Panaderías®</b></a> </li>
                     <li >Escuela primaria®</li>
-                    <li >Abarroteras®</li>
-                    <li >Fruterías®</li>
-                    <li >Changarros®</li>
+                    <li ><a class="text-decoration-none link-dark" href="/Abarrotera.php"><b>Abarroteras®</b></a> </li>
+                    <li ><a class="text-decoration-none link-dark" href="/Fruteria.php"><b>Fruterías®</b></a> </li>
+                    <li ><a class="text-decoration-none link-dark" href="/Changarro.php"><b>Changarros®</b></a> </li>
+                    <li ><a class="text-decoration-none link-dark" href="/Persianas.php"><b>Toldos y Persianas®</b></a> </li>
                     <li >Carnicerías®</li>
                     <li >Comercializadoras®</li>
                     <li >Mueblerías®</li>
                     <li >Distribuidoras®</li>
                     <li >Ferreterías®</li>
+                    <li >Cosméticos®</li>
                 </ul>
             </div>
             <div class="col-12 col-lg-6">
@@ -72,7 +74,7 @@
                 <div class="table-responsive text-center">
                     <table class="table table-sm table-borderless">
                         <thead class="">
-                            <tr class="encabezado-tabla text-white fs-md-5" >
+                            <tr class="encabezado-tabla text-white fs-md-5">
                                 <th class="fw-normal">
                                     <p class="">
                                         <span class="text-info ">Multiempresa</span><br>
@@ -93,7 +95,7 @@
                                 </th>
                                 <th class="fw-normal">
                                     <p class="">
-                                        <img src="/IMG/Quick-Point.png" alt="" srcset=""><br>
+                                        <img src="/IMG/Quick-Point.png" alt="" width="100px"><br>
                                         <span class="text-white ">$$ (Por definir con el cliente)</span><br> 
                                         <span class="text-white-50">MXN</span><br>
                                         <span class="text-muted">pago anual VPS <br>$8,900.00</span><br>
@@ -109,8 +111,8 @@
                                         <span>$1,400 = 1,000 folios</span>
                                     </p>
                                 </th>
-                                <th class="pb-5 pb-sm-4 pb-lg-4 ">
-                                    <img src="/IMG/Raptor-Navbar.png" width="80px" alt="">
+                                <th class="pb-5 pb-sm-5 pb-lg-5 ">
+                                    <img src="/IMG/Raptor-Navbar2.png" width="200px" alt="">
                                 </th>
                             </tr>
                         </thead>
@@ -126,7 +128,7 @@
                             <tr>
                                 <td class="fw-bold fst-italic text-muted table-primary p-3">10</td>
                                 <td class="fw-bold fst-italic text-muted table-warning p-3">20</td>
-                                <td class="fw-bold fst-italic text-muted table-danger p-3">A la medida</td>
+                                <td class="fw-bold fst-italic text-muted table-danger p-3">A la Medida</td>
                                 <td class="fw-bold fst-italic text-muted table-success p-3"></td>
                                 <td class="table-muted fs-5 p-3"><b>Usuarios</b></td>
                             </tr>
@@ -209,8 +211,8 @@
                             </tr>
                             <tr>
                                 <td class="fst-italic table-primary p-3">32 GB</td>
-                                <td class="fst-italic table-warning p-3">16 GB</td>
-                                <td class="fst-italic table-danger p-3">Compartido</td>
+                                <td class="fst-italic table-warning p-3">32 GB</td>
+                                <td class="fst-italic table-danger p-3">VPS</td>
                                 <td class="fst-italic table-success p-3">Compartido</td>
                                 <td class="table-muted fs-5 p-3"><b>Hosting</b></td>
                             </tr>
@@ -241,7 +243,7 @@
                     </table>
                     <p class="lead" style="font-size: large;">Todos los paquetes son anuales y no incluyen hosting. Los precios no incluyen IVA.<br> La facturación electrónica no incluye el sistema a la medida o los que ofertamos en la pagina.</p>
                     <p class="text-center fs-3">Además todos nuestros paquetes incluyen</p>
-                    <p class="fs-5">Almacenamiento en SSD | Transferencia mensual ilimitada | Panel de administración (Centro de Datos) |(Aplicaciones listas para instalar) | Punto de venta, app android.</p>
+                    <p class="fs-5">Panel de administración (Centro de Datos) |(Aplicaciones listas para instalar) | Punto de venta, app android.</p>
                 </div>
             </div>
         </div>

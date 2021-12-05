@@ -12,7 +12,7 @@
 </head>
 <body  style="background-color: #f0f0f0;">
 <!-- HEADER -->
-    <header class="header">
+    <header class="header d-none d-lg-block">
 <!-- NAVBAR -->
         <nav class="row align-items-start justify-content-end pt-3" style="margin-right: 0.1px; margin-left: 0.1px;">
             <div class="col-12 col-md-6 col-lg-3 border-none d-flex  me-lg-1 rounded-pill shadow bg-light justify-content-around">
@@ -31,6 +31,25 @@
             </h1>
         </div>
     </header>
+
+    <header class="header-responsive d-block d-lg-none">
+        <nav class="row align-items-start justify-content-end pt-3" style="margin-right: 0.1px; margin-left: 0.1px;">
+            <div class="col-12 col-md-6 col-lg-3 border-none d-flex  me-lg-1 rounded-pill shadow bg-light justify-content-around">
+                <a href="ERP.php" class="text-decoration-none link-dark fs-5 titulo " >ERP</a> 
+                <a href="CRM.php" class="text-decoration-none link-dark fs-5 titulo" >CRM</a>
+                <a href="Clientes.php" class="text-decoration-none link-dark fs-5 titulo " >Clientes</a>
+            </div>
+        </nav>
+        <div class="col-12 col-lg-6 ps-lg-3 d-none d-md-block">
+            <h1 class="ml14">
+                <span class="text-wrapper">
+                    <span class="letters">Bienvenido a Raptorsoft</span>
+                    <span class="line"></span>
+                </span>
+            </h1>
+        </div>
+    </header>
+
 
 <!-- SECCTION -->
     <section class="row  bg-seccion">
@@ -95,11 +114,9 @@
                             <div class="col-md-6 col-lg-3 text-center d-none d-md-block ">
                                 <img class="img-fluid " src="/IMG/Raptor-card.jpg" width="80%" alt="" loading="lazy">
                             </div>
-                            <div class="col-12 col-md-6 col-lg-9 ">
-                                <h3>Raptor</h3>
-                                <p class="fs-5 text-info">Selecciona el mejor paquete para tu negocio!!! <br>
-                                Facil de usar, Herramientas integradas 24/7    
-                            </p>
+                            <div class="col-12 col-md-6 col-lg-9 text-center">
+                            <p class="fs-4 text-info">Atiende, registra y cobra <br>
+                                Facil de usar, Herramientas integradas 24/7   
                             </div>
                         </div>
                         <div class="col-12 text-end">

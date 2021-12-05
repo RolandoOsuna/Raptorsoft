@@ -47,8 +47,8 @@
                                         <b>6 Usuarios</b>
                                     </p>
                                 </th>
-                                <th class="pb-5 pb-sm-4 pb-lg-4 ">
-                                    <img src="/IMG/Raptor-Navbar.png" width="80px" alt="">
+                                <th class="pb-5 pb-sm-5 pb-lg-5 ">
+                                    <img src="/IMG/Raptor-Navbar2.png" width="200px" alt="">
                                 </th>
                             </tr>
                         </thead>
@@ -202,7 +202,7 @@
                     </table>
                     <p class="lead" style="font-size: large;">Todos los paquetes son anuales y no incluyen hosting. Los precios no incluyen IVA.</p>
                     <p class="text-center fs-3">Además todos nuestros paquetes incluyen</p>
-                    <p class="fs-5">Almacenamiento en SSD | Transferencia mensual ilimitada | Panel de administración (Centro de Datos) |(Aplicaciones listas para instalar) | Punto de venta, app android.</p>
+                    <p class="fs-5">Panel de administración (Centro de Datos) |(Aplicaciones listas para instalar) | Punto de venta, app android.</p>
                 </div>
             </div>
         </div>

@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="/CSS/Normalize.css">
     <link rel="icon" type="image/png" sizes="32x32" href="/IMG/Raptor-Navbar.png">
 
-    <title>Descripcion</title>
+    <title>Panadería</title>
 </head>
 <body style="background-color: #f0f0f0;">
 <?php require('NavBar.php') ?>
@@ -48,16 +48,16 @@
                     </div>
                     <div class="carousel-inner ps-0 ps-lg-5">
                         <div class="carousel-item active">
-                            <img src="/IMG/.jpg" class="img-fluid d-block" width="400px" loading="lazy">
+                            <img src="/IMG/Panaderia/Carrusel-Panaderia-1.jpeg" class="img-fluid d-block" width="550px" loading="lazy">
                         </div>
                         <div class="carousel-item">
-                            <img src="/IMG/.jpg" class="img-fluid d-block" width="400px" loading="lazy">
+                            <img src="/IMG/Panaderia/Carrusel-Panaderia-2.jpg" class="img-fluid d-block" width="400px" loading="lazy">
                         </div>
                         <div class="carousel-item">
-                            <img src="/IMG/.jpg" class="img-fluid d-block" width="400px" loading="lazy">
+                            <img src="/IMG/Panaderia/Carrusel-Panaderia-3.jpg" class="img-fluid d-block" width="400px" loading="lazy">
                         </div>
                         <div class="carousel-item">
-                            <img src="/IMG/.jpg" class="img-fluid d-block" width="400px" loading="lazy">
+                            <img src="/IMG/Panaderia/Carrusel-Panaderia-4.jpg" class="img-fluid d-block" width="400px" loading="lazy">
                         </div>
                     </div>
                     <button class="carousel-control-prev pe-5" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -73,9 +73,9 @@
             <div class="col-12 col-lg-4 d-flex flex-column bd-highlight ">
                 <p class="display-5 titulo text-center">Panadería</p>
                 <hr>
-                <p class="h1 texto text-center lh-5 pt-3 ">Lorem ipsum dolor sit amet!!</p>
+                <p class="h1 texto text-center lh-5 pt-3 ">Contrata este plan y crece tu negocio!</p>
                 <div class="col-12 d-grid pt-5 mx-auto  bd-highlight mt-auto">
-                    <button class="btn btn-danger " type="button"><a href="http://wa.link/rsjw0t"></a> Mas Información</button>    
+                    <button class="btn btn-danger " type="button"><a class="text-decoration-none text-white" href="http://wa.link/rsjw0t">Mas Información</a> </button>    
                 </div>
             </div>
         </div>
