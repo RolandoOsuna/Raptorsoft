@@ -10,7 +10,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/IMG/Raptor-Navbar.png">
     <title>Inicio</title>
 </head>
-<body  style="background-color: #f0f0f0;">
+<body class="margen" style="background-color: #f0f0f0;">
 <!-- HEADER -->
     <header class="header d-none d-lg-block">
 <!-- NAVBAR -->
@@ -58,7 +58,7 @@
         </div>
         <div class="col-12 col-md-6 col-lg-4 justify-content-end text-white  ">
             <a class="text-decoration-none text-white" href="CRM.php">
-                <p class="display-3 text-center titulo " style="letter-spacing: 10px;">Raptor</p>
+                <img class="img-fluid mx-auto d-block" src="/IMG/LogoRaptor.png" width="60%" alt="">
                 <p class="fs-4 text-capitalize container" style="color: #E5BE51 ;">¡Accede a la automatización de tu negocio!</p>
                 <p class="fs-5 container arial" >Visualiza los movimientos realizados de:</p> 
                 <ul class="ps-5 lh-5 fs-5 arial">
@@ -196,7 +196,57 @@
     <?php require('tablaERP.php') ?>
 
 </section>
-   
+<!-- BOTON FLOTANTE -->
+<div class="btn-flotante">
+    <a class="link-dark" href="#mi-modal" data-bs-toggle="modal" data-bs-target="#mi-modal">
+        <svg xmlns="http://www.w3.org/2000/svg" width="75px" height="65px" fill="currentColor" class="img-fluid mb-2 pb-1 rounded-pill bi bi-envelope-fill" viewBox="0 0 16 16">
+            <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
+        </svg>
+    </a>
+</div>
+<!-- MODAL -->
+<div class="modal fade" id="mi-modal" tabindex="-1" data-bs-backdrop="static">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="text-center">¡Contáctanos!</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row mt-3">
+                            <div class="col">
+                                <form action="correos.php" method="POST">
+                                    <div class="mb-3">
+                                        <label for="Nombre" class="form-label">Nombre Completo</label>
+                                        <input type="text" class="form-control" name="nombre" id="nombre" placeholder="Nombre">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="correo" class="form-label">Correo Electrónico</label>
+                                        <input type="email" class="form-control" name="correo" id="correo" placeholder="Correo">
+                                    </div>
+                                    
+                                    <div class="mb-3">
+                                        <label for="mensaje" class="form-label">Mensaje</label>
+                                        <textarea name="mensaje" name="mensaje" id="mensaje" class="form-control"></textarea>
+                                        <div id="respuesta-correo" class="form-text">
+                                            Te responderemos lo más antes posible
+                                        </div>
+                                    </div>
+
+                                    <button type="submit" class="btn btn-primary">Enviar Comentario</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button class="btn btn-outline-dark" type="button" data-bs-dismiss="modal">Cancelar</button>
+                </div>
+            </div>
+            
+        </div>
+    </div>
 
 
 <!-- FOOTER -->

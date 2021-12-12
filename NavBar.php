@@ -3,7 +3,7 @@
     <div class="row justify-content-end align-items-center ">
         <div class="col-8">
             <a class="text-decoration-none link-light justify-content-end ps-3" href="index.php">
-                <img class="img-fluid justify-content-start " src="/IMG/Raptor-Navbar2.png" width="175px" alt="">
+                <img class="img-fluid justify-content-start " src="/IMG/LogoRaptor.png" width="175px" alt="">
             </a>
         </div>
         <div class="col-4 nav justify-content-around">
@@ -16,7 +16,7 @@
 </nav>
 <nav class="navbar navbar-expanded-md bg-navbar navbar-light text-end d-block d-lg-none">
     <div class="container-fluid">
-        <a class="navbar-brand" href="index.php"><img class="img-fluid" src="/IMG/Raptor-Navbar2.png" width="175px"alt=""></a>
+        <a class="navbar-brand" href="index.php"><img class="img-fluid" src="/IMG/LogoRaptor.png" width="175px"alt=""></a>
         <button
             class="navbar-toggler bg-light"
             type="button"

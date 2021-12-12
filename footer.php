@@ -2,7 +2,7 @@
 <div class="row margen">
     <div class="navbar bg-dark text-light p-2  shadow-lg">   
         <div class="col-12 col-md-6 col-lg-3 ps-5 pt-2 ">
-            <img src="/IMG/Raptor-Navbar2.png" class="img-fluid" width="150" alt="">
+            <img src="/IMG/LogoRaptor.png" class="img-fluid" width="150" alt="">
             <p class="text-secondary" style="font-size: 11px;">©Raptor<br>Todos los derechos reservados - 2021</p>
         </div>    
         <!-- ENLACES -->

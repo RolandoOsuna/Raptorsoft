@@ -1,3 +1,4 @@
+
 .header{
     background-image: url(/IMG/Raptor-header.jpg);
     background-position:center center;
@@ -9,6 +10,21 @@
     background-position:center;
     background-size: cover;
     height: 100vh;
+}
+
+.btn-flotante {
+    display:block;
+    width:70px;
+    height:70px;
+    color:#fff;
+    position: fixed;
+    right:20px;
+    bottom:20px;
+    border-radius:50%;
+    line-height:80px;
+    text-align:center;
+    z-index:100;
+    box-shadow: 0 .5rem 1rem rgb(56, 56, 56);
 }
 
 .ml14 {
@@ -75,6 +91,7 @@
    /* margin-left: 0.1px;*/
     margin-right: 0.1px;
 }
+
 
 .accordion-button:not(.collapsed) {
     color: #914623 ;
