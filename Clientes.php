@@ -12,6 +12,8 @@
     <title>Clientes</title>
 </head>
 <body style="background-color: #f0f0f0;">
+    <!-- BOTON FLOTANTE -->
+    <?php require('botones.php'); ?>
 <?php require('NavBar.php') ?>
     <header class="header-atencionclientes"></header>
     <main class="container">
@@ -33,6 +35,7 @@
 
 
 <?php require('footer.php') ?>
+
 <script src="/BOOTSTRAP/js/bootstrap.bundle.js"></script>
 </body>
 </html>

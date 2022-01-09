@@ -8,8 +8,12 @@
         </div>
         <div class="col-4 nav justify-content-around">
             <div class="col-1 fs-5"><a class="text-decoration-none link-light " href="index.php">Inicio</a></div>
-            <div class="col-1 fs-5"><a class="text-decoration-none link-light " href="ERP.php">ERP</a></div>
-            <div class="col-1 fs-5"><a class="text-decoration-none link-light " href="CRM.php">CRM</a></div>
+            <div class="col-2 fs-5"><a class="text-decoration-none link-light " href="ERP.php">ERP<br></a>
+            <p class="text-white-50"  style="font-size: 13px;" >Tu negocio</p>
+            </div>
+            <div class="col-1 fs-5 text-center"><a class="text-decoration-none link-light" href="CRM.php">CRM</a>
+            <p class="text-white-50" style="font-size: 13px;">Inmobiliaria</p>
+            </div>
             <div class="col-1 fs-5"><a class="text-decoration-none link-light " href="Clientes.php">Clientes</a></div>
         </div>
     </div>
@@ -34,9 +38,11 @@
                 </li>
                 <li class="nav-item pe-md-3">
                     <a class="text-decoration-none link-light" aria-current="page" href="ERP.php">ERP</a>
+                    <p class="text-white-50" style="font-size: 13px; padding: top 0;">Mi negocio</p>
                 </li>
                 <li class="nav-item pe-md-3">
                     <a class="text-decoration-none link-light" aria-current="page" href="CRM.php">CRM</a>
+                    <p class="text-white-50" style="font-size: 13px; padding: top 0;">Inmobiliaria</p>
                 </li>
                 <li class="nav-item pe-md-3">
                     <a class="text-decoration-none link-light" aria-current="page" href="Clientes.php">Contacto</a>

@@ -16,6 +16,8 @@
 <body style="background-color: #f0f0f0;">
 <?php require('NavBar.php') ?>
 
+<!-- BOTON FLOTANTE -->
+<?php require('botones.php'); ?>
     <header class="container ">
     <div class="col-12 text-center py-3">
             <img class="img-fluid " src="/IMG/CRM.png" width="" alt="">
@@ -47,13 +49,16 @@
 <section >
     <div class="row row-cols-1 row-cols-md-3 g-4 margen px-md-5 pb-3" style="margin-left: 0.1px;">
     <!-- Jugador Casual -->
-        <div class="col">
-            <div class="card bg-success shadow">
-                <div class="card-header">
-                    <h3 class="card-title text-center text-light">Jugador Casual</h3>
+        <div class="col ">
+            <div class="card bg-success transicioncrm shadow">
+                <div class="card-header text-center">
+                    <h2 class="card-title text-center text-light">
+                        Jugador Casual<br>
+                    </h2>
+                    <span class="text-white-50 text-center">Inmuebles</span>
                 </div>
                 <div class="card-body text-white pb-0">
-                    <h4 class="text-center">$9,999.00</h4>
+                    <h3 class="text-center">$9,999.00</h3>
                     <p class="text-center"><span class="text-white-50">Anualidad $2,500</span>
                     <p class="fs-5 text-center">Tu proyecto personal</p>
                     <p class="text-light"><img class="" src="/IMG/people-fill.svg"width="8%" alt="Usuarios Ilimitados"> <span class="pt-5 ps-3">2 Usuario</span> </p>
@@ -69,12 +74,13 @@
         </div>
     <!-- Aficionado Intermedio -->
         <div class="col">
-            <div class="card bg-danger shadow">
-                <div class="card-header">
-                    <h3 class="card-title text-center text-light">Aficionado Intermedio</h3>
+            <div class="card bg-danger transicioncrm shadow">
+                <div class="card-header text-center">
+                    <h2 class="card-title text-center text-light">Aficionado Intermedio</h2>
+                    <span class="text-white-50 text-center">Real State</span>
                 </div>
                 <div class="card-body text-white pb-0">
-                    <h4 class="text-center">$18,999.00</h4>
+                    <h3 class="text-center">$18,999.00</h3>
                     <p class="text-center"><span class="text-white-50">Anualidad $3,000</span></p>
                     <p class="fs-5 text-center">Atención telefónica por expertos </p>
                     <p class="text-light">
@@ -116,12 +122,13 @@
         </div>
     <!-- Aficionado Avanzado -->
         <div class="col">
-            <div class="card bg-warning shadow">
-                <div class="card-header">
-                    <h3 class="card-title text-center text-dark">Aficionado Avanzado</h3>
+            <div class="card bg-warning transicioncrm shadow">
+                <div class="card-header text-center">
+                    <h2 class="card-title text-center text-dark">Aficionado Avanzado</h2>
+                    <span class="text-black-50 text-center">CRM</span>
                 </div>
                 <div class="card-body text-dark pb-0">
-                    <h4 class="text-center">$24,999.00</h4>
+                    <h3 class="text-center">$24,999.00</h3>
                     <p class="text-center"><span class="text-black-50">Anualidad $4,000</span> 
                     <p class="fs-5 text-center">Tu negocio al siguiente nivel.</p>
                     <p class="text-dark">
