@@ -207,7 +207,22 @@
 <!-- TABLA -->
 <section class="bg-secction">
     <?php require('tablaERP.php') ?>
+    <div class="container d-none d-md-block">
+        <div class="row margen">
+            <div class="col text-center">
+                <img class="img-fluid" src="IMG/tabla-movil.png" width="1100px" alt="">
+                <div class="d-grid gap-1">
+                    <button type="button" class="btn btn-warning"><a class="text-decoration-none link-dark" href="http://wa.link/rsjw0t">Contratar Ahora!</a></button>
+                </div>
+                <p class="lead" style="font-size: large;">Todos los paquetes son anuales y no incluyen hosting. Los precios no incluyen IVA.</p>
+                <p class="text-center fs-3">Todos nuestros paquetes cuentan con:</p>
+                <p class="">Panel de administración (Centro de Datos) |(Aplicaciones listas para instalar) | App android.</p>
+            </div>
+        </div>
+    </div>
+</section>
 
+<section>
 </section>
 
 
