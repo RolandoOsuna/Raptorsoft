@@ -207,7 +207,7 @@
                 </div>
             </div>
         </div>
-        <!-- TABLA MOVIL -->
+        <!-- TABLA MOVIL 
         <div class="row d-block d-md-none">
             <div class="col-12">
             <div class="table-responsive text-center">
@@ -287,7 +287,7 @@
                                 <td class="fst-italic table-primary p-3">32 GB</td>
                                 <td class="table-muted fs-5 p-3"><b>Hosting</b></td>
                             </tr>
-                            <!-- BOTONES "Contratar Ahora" -->
+                            <!-- BOTONES "Contratar Ahora" --
                             <tr>
                                 <td>
                                     <div class="d-grid gap-2">
@@ -317,5 +317,5 @@
                     <p class="">Panel de administració  n (Centro de Datos) |(Aplicaciones listas para instalar) | App android.</p>
                 </div>
             </div>
-        </div> 
+        </div> -->
     </main>
