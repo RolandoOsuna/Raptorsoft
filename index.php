@@ -220,9 +220,9 @@
                 <a href="http://wa.link/rsjw0t">
                     <img class="" src="IMG/tabla-movil.png" width="1100px" alt="">
                 </a>
+                <p class="text-center fs-3 pt-3">Nuestros paquetes cuentan con:</p>
+                <p class=""> Inicio | Credenciales | Clientes | Proveedores | Rutas | Inventarios | Almacenes| Compras | Pedidos | Preventas </p>
                 <p class="lead" style="font-size: large;">Todos los paquetes son anuales y no incluyen hosting. Los precios no incluyen IVA.</p>
-                <p class="text-center fs-3">Todos nuestros paquetes cuentan con:</p>
-                <p class="">Panel de administración (Centro de Datos) |(Aplicaciones listas para instalar) | App android.</p>
             </div>
         </div>
     </div>

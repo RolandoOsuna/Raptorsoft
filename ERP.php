@@ -134,76 +134,7 @@
                                 <td class="fw-bold fst-italic text-muted table-success p-3">2</td>
                                 <td class="table-muted fs-5 p-3"><b>Usuarios</b></td>
                             </tr>
-                            <tr>
-                                <td class="table-primary p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
-                                <td class="table-warning p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
-                                <td class="table-danger p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
-                                <td class="table-success p-3"></td>
-                                <td class="table-muted fs-5 p-3"><b>Inicio</b></td>
-                            </tr>
-                            <tr>
-                                <td class="table-primary p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
-                                <td class="table-warning p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
-                                <td class="table-danger p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
-                                <td class="table-success p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
-                                <td class="table-muted fs-5 p-3"><b>Credenciales</b></td>
-                            </tr>
-                            <tr>
-                                <td class="table-primary p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
-                                <td class="table-warning p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
-                                <td class="table-danger p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
-                                <td class="table-success p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
-                                <td class="table-muted fs-5 p-3"><b>Clientes</b></td>
-                            </tr>
-                            <tr>
-                                <td class="table-primary p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
-                                <td class="table-warning p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
-                                <td class="table-danger p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
-                                <td class="table-success p-3"></td>
-                                <td class="table-muted fs-5 p-3"><b>Proveedores</b></td>
-                            </tr>
-                            <tr>
-                                <td class="table-primary p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
-                                <td class="table-warning p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
-                                <td class="table-danger p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
-                                <td class="table-success p-3"></td>
-                                <td class="table-muted fs-5 p-3"><b>Rutas</b></td>
-                            </tr>
-                            <tr>
-                                <td class="table-primary p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
-                                <td class="table-warning p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
-                                <td class="table-danger p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
-                                <td class="table-success p-3"></td>
-                                <td class="table-muted fs-5 p-3"><b>Productos</b></td>
-                            </tr>
-                            <tr>
-                                <td class="table-primary p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
-                                <td class="table-warning p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
-                                <td class="table-danger p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
-                                <td class="table-success p-3"></td>
-                                <td class="table-muted fs-5 p-3"><b>Inventarios</b></td>
-                            </tr>
-                            <tr>
-                                <td class="table-primary p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
-                                <td class="table-warning p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
-                                <td class="table-danger p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
-                                <td class="table-success p-3"></td>
-                                <td class="table-muted fs-5 p-3"><b>Almacenes</b></td>
-                            </tr>
-                            <tr>
-                                <td class="table-primary p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
-                                <td class="table-warning p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
-                                <td class="table-danger p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
-                                <td class="table-success p-3"></td>
-                                <td class="table-muted fs-5 p-3"><b>Compras</b></td>
-                            </tr>
-                            <tr>
-                                <td class="table-primary p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
-                                <td class="table-warning p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
-                                <td class="table-danger p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
-                                <td class="table-success p-3"></td>
-                                <td class="table-muted fs-5 p-3"><b>Pedidos</b></td>
-                            </tr>
+                            
                             <tr>
                                 <td class="table-primary p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
                                 <td class="table-warning p-3"><img src="/IMG/check2-circle.svg" width="25px" alt=""></td>
