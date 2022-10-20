@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="mx">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/estilos.css">
+  <link rel="stylesheet" href="CSS/bootstrap.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  <title>Raptorsoft</title>
+</head>
+<body>
+  <header class="bg-header ">
+  <!-- MOVING LETTERS  -->
+  <div class="row text-center pt-5">
+    <h1 class="ml11 display-6">
+      <span class="text-wrapper">
+        <span class="line line1"></span>
+        <span class="letters ">Bienvenido a Raptorsoft</span>
+      </span>
+    </h1>      
+  </div>
+  <!-- NAVBAR -->
+  <nav class="row align-items-start justify-content-center nav">
+    <div class="col-12 col-md-6 col-lg-3 border-none d-flex  rounded-pill shadow bg-light justify-content-around">
+        <a href="ERP.php" class="text-decoration-none link-dark fs-4  " >ERP</a> 
+        <a href="CRM.php" class="text-decoration-none link-dark fs-4 " >CRM</a>
+        <a href="Clientes.php" class="text-decoration-none link-dark fs-4  " >Clientes</a>
+    </div>
+  </nav>
+    <!-- <div class="col-6"></div>
+    <div id="tilt" class="col-6 ">
+      <img class="img-fluid " src="IMG/LogoRaptor.png" alt="">   
+    </div> -->
+  </header>
+  <!-- CARDS -->
+  <section class="pt-5 border">
+    <div class="row pb-5">
+      <h1 class="text-center" style="color: #167FE8;">¡Escoge el plan para comenzar tu proyecto!</h1>
+    </div>
+    <div class="d-md-flex justify-content-evenly mx-5 mt-5 m-md-0">
+        <!-- HOME -->
+        <div class="card-planes text-center mt-4 m-md-0 home">
+            <h1 class="">Home</h1>
+            <h3 class="">$4,999.00 <br>MXN</h3>
+            <h5 class="">pago anual <br> $1,400</h5>
+            <div class="text-start ms-5">
+                <p class=""><strong>Usuarios:</strong> 2</p>
+                <p class=""><strong>Version: </strong> Escritorio y Web</p>
+                <p class=""><strong>Inicio: </strong> -</p>
+                <p class=""><strong>Ventas de  Mostrador: </strong> <svg xmlns="http://www.w3.org/2000/svg" width="25px" height="25px" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16">
+                    <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z"/>
+                    <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z"/>
+                  </svg></p>
+                <p class=""><strong>Particion: </strong> 1</p>
+                <p class=""><strong>Hosting: </strong> Compartido</p>
+            </div>
+        </div>
+        <!-- PYME -->
+        <div class="card-planes text-center mt-4 m-md-0 pyme">
+            <h1 class="">PYME</h1>
+            <h3 class="">$8,999.00 <br>MXN</h3>
+            <h5 class="">pago anual <br> $1,800</h5>
+            <div class="text-start ms-5">
+                <p class=""><strong>Usuarios:</strong> 3</p>
+                <p class=""><strong>Version: </strong> Escritorio y Web</p>
+                <p class=""><strong>Inicio: </strong> <svg xmlns="http://www.w3.org/2000/svg" width="25px" height="25px" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16">
+                    <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z"/>
+                    <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z"/>
+                  </svg></p>
+                <p class=""><strong>Ventas de  Mostrador: </strong> <svg xmlns="http://www.w3.org/2000/svg" width="25px" height="25px" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16">
+                    <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z"/>
+                    <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z"/>
+                  </svg></p>
+                <p class=""><strong>Particion: </strong> 1</p>
+                <p class=""><strong>Hosting: </strong> Compartido</p>            
+            </div>
+        </div>
+        <!-- Profesional -->
+        <div class="card-planes text-center mt-4 m-md-0 profesional">
+            <h1 class="">Profesional</h1>
+            <h3 class="">$11,999.00 <br>MXN</h3>
+            <h5 class="">pago anual <br> $2,500</h5>
+            <div class="text-start ms-5">
+                <p class=""><strong>Usuarios:</strong> 4</p>
+                <p class=""><strong>Version: </strong> Escritorio y Web</p>
+                <p class=""><strong>Inicio: </strong> <svg xmlns="http://www.w3.org/2000/svg" width="25px" height="25px" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16">
+                    <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z"/>
+                    <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z"/>
+                  </svg></p>
+                <p class=""><strong>Ventas de  Mostrador: </strong> <svg xmlns="http://www.w3.org/2000/svg" width="25px" height="25px" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16">
+                    <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z"/>
+                    <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z"/>
+                  </svg></p>
+                <p class=""><strong>Particion: </strong> 1</p>
+                <p class=""><strong>Hosting: </strong> 16 GB</p>
+            </div>
+        </div>
+        <!-- Ultimate -->
+        <div class="card-planes text-center mt-4 m-md-0 ultimate">
+            <h1 class="">Ultimate</h1>
+            <h3 class="">$4,999.00 <br>MXN</h3>
+            <h5 class="">pago anual <br> $1,400</h5>
+            <div class="text-start ms-5">
+                <p class=""><strong>Usuarios:</strong> 6</p>
+                <p class=""><strong>Version: </strong> Escritorio y Web</p>
+                <p class=""><strong>Inicio: </strong> <svg xmlns="http://www.w3.org/2000/svg" width="25px" height="25px" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16">
+                    <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z"/>
+                    <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z"/>
+                  </svg></p>
+                <p class=""><strong>Ventas de  Mostrador: </strong> <svg xmlns="http://www.w3.org/2000/svg" width="25px" height="25px" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16">
+                    <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z"/>
+                    <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z"/>
+                  </svg></p>
+                <p class=""><strong>Particion: </strong> 32 GB</p>
+                <p class=""><strong>Hosting: </strong> Compartido</p>
+            </div>
+        </div>
+    </div>
+    <div class="row text-center pt-5 pb-3">
+      <p class=" fs-3">Nuestros paquetes cuentan con:</p>
+      <span class=""> Inicio | Credenciales | Clientes | Proveedores | Rutas | Inventarios | Almacenes| Compras | Pedidos | Ventas de Mostrador</span>
+      <p class=" lead" style="font-size: large;">Todos los paquetes son anuales y no incluyen hosting. Los precios no incluyen IVA.</p>
+    </div>
+  </section>
+
+  <!-- SECTION-1 -->
+  <section class="bg-section-1 border">
+    <div class="position-relative">
+      <img class="imagen thumbnail" src="media/section-1.jpg" >
+      <div class="col-6">
+        <div class="cuadro-azul "></div>
+        <div class="card-section shadow p-4">
+          <h1 class="lead text-black-50 text-uppercase">Lorem, ipsum dolor.</h1>
+          <p class="display-5 pe-3">Consectetur adipisicing elit. Lorem, ipsum dolor.</p>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="card-testimonial shadow">
+          <img class="img-fluid m-3" src="media/Icono-testimonial.png" width="100px">
+          <p class="fs-4 px-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime laboriosam enim quam magnam, atque deserunt odio saepe, nostrum in perspiciatis a? Vel sequi praesentium aperiam necessitatibus quibusdam nihil. Dolor, enim.</p>
+          <a type="button" class="btn btn-lg btn-dark ms-3 mt-3">Ver Más</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION CRM -->
+  <section class="bg-section-crm">
+    <div class="container">
+      <div class="row my-5">
+        <aside class="col-6 img-crm-1">
+          <img class="img-fluid" src="media/img-crm-1.jpg" >
+          <div class="rectang-img-crm-1 text-white ps-5 pt-2">
+            <span class="h1 ">CRM</span><br>
+            <span class="fs-4 ">Inmobiliaria</span>
+          </div>
+        </aside>
+        <div class="col-6" >
+          <div class="row">
+            <div class="col-12 pt-3 px-5 img-crm-2" >
+                <h1 class="gradient-text">Raptorsoft</h1>
+                <p class="fs-3 lh-md">
+                  Es una poderosa herramienta para impulsar el crecimiento, rentabilidad y competitividad de tu empresa inmobiliaria.
+                </p>
+                <a type="button" class="btn btn-dark ">Ver Más</a>
+            </div>
+            <div class="col-12  img-crm-2" >
+                <img class="img-fluid " src="media/img-crm-2.jpg">
+                <div class="rectang-img-crm-2"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- SECTION ERP -->
+  <section class="bg-section-crm">
+    <div class="container">
+      <div class="row my-5">
+        <div class="col-6" >
+          <div class="row">
+            <div class="col-12 px-5 img-crm-2" >
+                <h1 class="gradient-text">ERP</h1>
+                <p class="fs-4 lh-md">
+                  Utiliza nuestras soluciones de software en la nube ya que es mucho más fácil gracias a nuestra lista de integraciones, sácale el mayor partido a las aplicaciones y a los servicios que te ayudan a hacer crecer a tu negocio.
+                </p>
+                <a type="button" class="btn btn-dark ">Ver Más</a>
+            </div>
+            <div class="col-12 text-end img-crm-2" >
+                <img class="img-fluid " src="media/img-erp-2.jpg">
+                <div class="rectang-img-erp-2"></div>
+            </div>
+          </div>
+        </div>
+        <aside class="col-6 img-crm-1 ">
+          <img class="img-fluid" src="media/img-erp-1.jpeg" >
+          <div class="rectang-img-crm-1 text-white text-end pe-5 pt-2">
+            <span class="h1 ">ERP</span><br>
+            <span class="fs-4 ">Tu negocio</span>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION-VIDEO -->
+  <main class="p-5 border">
+    <div class="d-flex justify-content-center align-items-center">
+      <div class="rectang-video-1"></div>
+      <div class="rectang-video-2 ">
+        <div class="contenido-video">
+          <h1 class="display-3 ">Llevalo a donde <br> quieras</h1>
+          <p class="fs-2 lh-lg">
+            Accede desde cualquier dispositivo conectado a internet, mantente al tanto de de la organizacion de tu negocio y que todo siga en orden
+          </p>
+        </div>
+        <div class="video">
+          <video onloadedmetadata="this.muted=true" autoplay loop width="80%">
+            <source src="IMG/Video-ERP.mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+
+  <footer class="bg-dark">
+    <div class="row margen">
+        <div class="navbar bg-dark text-light p-2  shadow-lg">   
+            <div class="col-12 col-md-6 col-lg-3 ps-5 pt-2 ">
+                <img src="IMG/LogoRaptor.png" class="img-fluid" width="150" alt="">
+                <p class="text-secondary" style="font-size: 11px;">©Raptor<br>Todos los derechos reservados - 2021</p>
+            </div>    
+            <!-- ENLACES -->
+            <div class="col-12 col-md-6 col-lg-2 ps-5 pt-2">
+                <h5>Enlaces</h5>
+                <a href="index.php" class="link-secondary text-decoration-none">Inicio</a><br>       
+                <a href="ERP.php" class="link-secondary text-decoration-none">ERP</a><br>  
+                <a href="CRM.php" class="link-secondary text-decoration-none">CRM</a><br>  
+                <a href="Clientes.php" class="link-secondary text-decoration-none">Clientes</a><br>  
+            </div>
+            <!-- CONTACTO -->
+            <div class="col-12 col-md-6 col-lg-4 ps-5 pt-2">
+                <h5>Contácto</h5>
+                <p class=" text-secondary" > 
+                <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-info-circle-fill" viewBox="0 0 16 16">
+                    <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+                </svg>
+                    Atencion a Clientes
+                </p>
+                <!-- TELEFONO -->
+                <div class="col-auto d-inline-flex">
+                    <p class=" text-secondary">
+                        <a class="text-decoration-none link-secondary" href="http://wa.link/rsjw0t">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                        </svg>
+                        (694) 110-2012</a>
+                    </p> 
+                </div>            
+                <!-- CORREO -->
+                <p class="text-secondary">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                        <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
+                    </svg>
+                      <a class="text-decoration-none link-secondary" href="mailto:info@rcconsultora.com.mx">ventas@grupocom.com.mx</a>
+                </p>
+                <!-- UBICACION -->
+                <p class="text-secondary">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                    </svg>
+                    <a href="https://goo.gl/maps/Jpm4ZjA99tZ74a646" class="link-secondary">Aquiles Serdán 1007-int. 3, Centro, 82000 Mazatlán, Sin.</a> 
+                </p>
+            </div>
+            <!-- SIGUENOS -->
+            <div class="col-12 col-md-6  col-lg-3  text-end pe-5 pt-2">
+                <h5>Síguenos</h5>
+                <p class=" text-secondary">
+                    <a class="link-secondary" href="https://www.facebook.com/"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                    </svg></a>
+                    <a class="link-secondary" href="https://www.instagram.com/"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                    </svg></a>
+                    <a class="link-secondary" href="https://twitter.com/?lang=es"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                    </svg></a>
+                </p>
+            </div>
+        </div>
+    </div>
+  </footer>
+<script src="./JS/app.js"></script>
+<script src="BOOTSTRAP/js/bootstrap.bundle.js"></script>
+
+
+</body>
+</html>

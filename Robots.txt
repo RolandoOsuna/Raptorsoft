@@ -1,9 +1,0 @@
-User-Agent: *
-Allow: /index.php
-Allow: /CRM.php
-Allow: /ERP.php
-Disallow: /Clientes.php
-Disallow: /Cremeria.php
-Disallow: /Changarro.php
-
-Sitemap: https://raptorsoft.com.mx/sitemap-raptor.xml
