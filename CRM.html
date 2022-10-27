@@ -7,11 +7,102 @@
     <link rel="stylesheet" href="CSS/bootstrap.min.css">
     <link rel="stylesheet" href="CSS/estilos.css">
     <link rel="stylesheet" href="CSS/Normalize.css">
-    <title>Document</title>
+    <title>CRM</title>
 </head>
 <body>
+    <header class="header-crm ">
+        <div class="capa-header-crm">
+            <!-- NAV -->
+            <nav class="row margen py-2 bg-navbar navbar d-none d-lg-block position-relative" style="z-index: 1;">
+                <div class="row justify-content-end align-items-center ">
+                    <div class="col-7">
+                        <a class="text-decoration-none link-light justify-content-end ps-3" href="index.php">
+                            <img class="img-fluid justify-content-start " src="/IMG/LogoRaptor.png" width="175px" alt="">
+                        </a>
+                    </div>
+                    <div class="col-5 nav justify-content-around">
+                        <div class="col-1 fs-5"><a class="text-decoration-none text-light " href="index.html">Inicio</a></div>
+                        <div class="col-2 fs-5"><a class="text-decoration-none text-light " href="ERP.html">ERP<br></a>
+                        <p class="text-white-50"  style="font-size: 13px;" >Tu negocio</p>
+                        </div>
+                        <div class="col-1 fs-5 text-center"><a class="text-decoration-none text-light" href="CRM.html">CRM</a>
+                        <p class="text-white-50" style="font-size: 13px;">Inmobiliaria</p>
+                        </div>
+                        <div class="col-1 fs-5"><a class="text-decoration-none text-light " href="Clientes.php">Clientes</a></div>
+                    </div>
+                </div>
+            </nav>
+            <!-- NAV-RESPONSIVE -->
+            <nav class="navbar navbar-expanded-md bg-navbar navbar-light text-end d-block d-lg-none position-relative" style="z-index: 1;">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.php"><img class="img-fluid" src="/IMG/LogoRaptor.png" width="175px"alt=""></a>
+                    <button
+                        class="navbar-toggler bg-light"
+                        type="button"
+                        data-bs-toggle="collapse" 
+                        data-bs-target="#navbarNav" 
+                        aria-controls="navbarNav" 
+                        aria-expanded="false" 
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse text-end fs-5 align-items-center" id="navbarNav">
+                        <ul class="navbar-nav pt-2 pt-md-0">
+                            <li class="nav-item pe-md-3">
+                                <a class="text-decoration-none link-light" aria-current="page" href="index.php">Inicio</a>
+                            </li>
+                            <li class="nav-item pe-md-3">
+                                <a class="text-decoration-none link-light" aria-current="page" href="ERP.php">ERP</a>
+                                <p class="text-white-50" style="font-size: 13px; padding: top 0;">Mi negocio</p>
+                            </li>
+                            <li class="nav-item pe-md-3">
+                                <a class="text-decoration-none link-light" aria-current="page" href="CRM.php">CRM</a>
+                                <p class="text-white-50" style="font-size: 13px; padding: top 0;">Inmobiliaria</p>
+                            </li>
+                            <li class="nav-item pe-md-3">
+                                <a class="text-decoration-none link-light" aria-current="page" href="Clientes.php">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="container">
+                <div class="row text-light justify-content-evenly p-header">
+                    <div class="col"></div>
+                    <div class="col-12 col-md-7 text-end ">
+                        <p class="display-5 fw-normal text-uppercase">Consigue <br>tus objetivos<br> inmobiliarios</p>
+                        <p class="f">Añade tus proyectos para que tus clientes lo conozcan desde tu sitio web.<br>Realiza contratos fácilmente rellenando los recuadros con los datos marcados, lleva un mejor control y lo tendrás disponible en todo momento.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- SECTION-1 -->
+    <section class="container">
+        <div class="row my-3 align-items-end">
+            <div class="col-12 col-lg-6 pe-lg-3">
+                <h1 class="gradient-text">CRM</h1>
+                <p class="fs-5">La más amplia gama de herramientas para ayudarte a optimizar tus actividades Ahorrandote tiempo y dinero.</p>
+                <ul>
+                    <li class=""><span class="fw-bold">Raptorsoft</span> es una poderosa herramienta para impulsar el crecimiento, rentabilidad y competitividad de tu empresa inmobiliaria.</li>
+                    <li class=""><span class="fw-bold">Raptorsoft</span> ideal para elevar la rentabilidad de tu empresa y cumplir con las tareas diarias.</li>
+                    <li class="">¿Tu negocio requiere de un sistema versátil y amigable? <span class="fw-bold">Raptorsoft</span> puede adaptarse a los requerimientos de tu empresa.</li>
+                </ul>
+            </div>
+            <div class="col-12 col-lg-6">
+                <img src="IMG/Section-inmobiliaria.jpg" class="img-fluid">
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION-CARDS -->
+    <section class="container ">
+        <div class="row text-center mt-3">
+            <h1 class="" style="color: #914623 ;">!Obtén increíbles beneficios y Contrata ahora!</h1>
+        </div>
         <!-- DESKTOP -->
-        <div class="row justify-content-center my-5 d-md-flex d-none d-md-block " >
+        <div class="row justify-content-center my- d-lg-flex d-none d-lg-block " >
             <!-- JUGADOR CASUAL -->
             <div class="flip-card col-11 col-md-3 drop-shadow " style="z-index: 30;">
                 <div class="flip-card-inner ">
@@ -131,27 +222,27 @@
                   </div>
                 </div>
             </div> 
-          </div>
-          <!-- RESPONSIVE -->
-          <div class="d-block d-md-none justify-content-evenly mx-5 mt-5 m-md-0">
+        </div>
+        <!-- RESPONSIVE -->
+        <div class="d-block d-lg-none justify-content-evenly mx-3 my-5 ">
             <!-- Jugador Casual  -->
             <div class="card-planes text-center mt-4 m-md-0 ultimate">
-              <h1 class="">Jugador <br class="d-none d-md-block"> Casual</h1>
-              <h4 class="">Inmuebles</h4>
-              <div class="text-start ">
+                <h1 class="">Jugador <br class="d-none d-md-block"> Casual</h1>
+                <h4 class="">Inmuebles</h4>
+                <div class="text-start ">
                 <h3 class="text-center">$9,999.00</h3>
                 <p class="text-center"><span class="text-white-50">Anualidad $2,500</span>
                 <p class="fs-5 text-center">Tu proyecto personal</p>
                 <p class=" px-3"><img class="" src="IMG/people-fill.svg"width="40px" alt="Usuarios Ilimitados"> <span class="pt-5 ps-3">2 Usuario</span> </p>
                 <p class=" px-3"><img class="pb-1" src="IMG/house-door-fill.svg"  width="40px" alt=""><span class="pt-5 ps-3"> Inmobiliario</span></p>
                 <p class=" px-3"><img class="pb-1" src="IMG/cloud-plus-fill.svg" width="40px" alt=""><span class="pt-5 ps-3">Hosting: <i>8GB</i></span></p>
-              </div>
+                </div>
             </div>
             <!-- Aficionado Intermedio -->
             <div class="card-planes text-center mt-4 m-md-0 pyme">
-              <h1 class="">Aficionado Intermedio</h1>
-              <h4 class="">Real State</h4>
-              <div class="text-start ms-">
+                <h1 class="">Aficionado Intermedio</h1>
+                <h4 class="">Real State</h4>
+                <div class="text-start ms-">
                 <h3 class="text-center ">$18,999.00</h3>
                 <p class="text-center"><span class="text-white-50">Anualidad $3,000</span></p>
                 <p class="fs-5 text-center">Atención telefónica por expertos </p>
@@ -182,13 +273,13 @@
                     <img class="pb-1" src="IMG/cloud-plus-fill.svg" width="40px" alt="">
                     <span class=" ">Hosting: <i>16GB</i></span>
                 </span>
-              </div>
+                </div>
             </div>
             <!-- Aficionado Avanzado -->
             <div class="card-planes text-center mt-4 m-md-0 profesional">
-              <h1 class="">Aficionado Avanzado</h1>
-              <h4 class="">CRM</h4>
-              <div class="text-start ">
+                <h1 class="">Aficionado Avanzado</h1>
+                <h4 class="">CRM</h4>
+                <div class="text-start ">
                 <h3 class="text-center">$24,999.00</h3>
                 <p class="text-center"><span class="text-black-50">Anualidad $4,000</span> 
                 <p class="fs-5 text-center">Tu negocio al siguiente nivel.</p>
@@ -231,9 +322,244 @@
                     <img class="pb-1" src="IMG/cloud-plus-fill.svg" width="40px" alt="">
                     <span class="">Hosting: <i>32GB</i></span>
                 </span>
-              </div>
+                </div>
             </div>
-            
-          </div>
+        
+        </div>
+
+        <div class="row p-section-crm">
+            <h1 class="text-center">Descubre más Información</h1>
+            <p class="text-center"><span class=" fw-bold">Raptorsoft</span> la primera plataforma en la nube en incluir funcionalidades que aumentan la productividad y adaptabilidad a la logística de tu negocio. Contacta con nosotros valido
+            solo para plan <span class="text-decoration-underline">Aficionado Avanzado.</span></p>    
+        </div>
+    </section>
+
+    <!-- FULL -->
+    <section class="bg-crm pb-3 d-none d-md-block">
+        <h1 class="text-light ps-5">Herramientas Integradas</h1>
+        <div class="row margen ">
+            <div class="col text-center">
+                <img class="img-fluid transicion rounded-pill  bg-" src="/IMG/people-fill.svg" width="75px" alt="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="75px" height="65px" fill="currentColor" class="img-fluid ms-5 transicion rounded-pill bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                </svg>
+            </div>
+        </div>
+        
+        <div class="row align-items-center justify-content-center margen mt-3 ">
+            <div class="col-4 text-end">
+                <svg xmlns="http://www.w3.org/2000/svg" width="75px" height="65px" fill="currentColor" class="img-fluid transicion rounded-pill bg- bi bi-card-text" viewBox="0 0 16 16">
+                    <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"/>
+                    <path d="M3 5.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 8a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 8zm0 2.5a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5z"/>
+                </svg>
+            </div>
+            <div class="col-2 text-center"></div>
+            <div class="col-4 text-start">
+                <img class="img-fluid transicion rounded-pill bg-" src="/IMG/house-door-fill.svg"  width="75px" alt="">
+            </div>
+        </div>
+        
+        <div class="row align-items-center margen my-5 px-5">
+            <div class="col text-end ms-5">
+                <svg xmlns="http://www.w3.org/2000/svg" width="80px" height="60px" fill="currentColor" class="img-fluid transicion rounded-pill  bi bi-journal-text" viewBox="0 0 16 16">
+                    <path d="M5 10.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
+                    <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z"/>
+                    <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z"/>
+                </svg>
+            </div>
+            <div class="col text-center">
+                <img class="" src="/IMG/CRM.png" width="" alt="">
+            </div>
+            <div class="col text-start me-5 ">
+                <svg xmlns="http://www.w3.org/2000/svg" class="img-fluid transicion rounded-pill icon icon-tabler icon-tabler-tools" width="80px" height="65px" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <path d="M3 21h4l13 -13a1.5 1.5 0 0 0 -4 -4l-13 13v4" />
+                                <line x1="14.5" y1="5.5" x2="18.5" y2="9.5" />
+                                <polyline points="12 8 7 3 3 7 8 12" />
+                                <line x1="7" y1="8" x2="5.5" y2="9.5" />
+                                <polyline points="16 12 21 17 17 21 12 16" />
+                                <line x1="16" y1="17" x2="14.5" y2="18.5" />
+                    </svg>
+            </div>
+        </div>
+
+        <div class="row align-items-center justify-content-center margen mb-3 ">
+            <div class="col-4 text-end">
+                <img class="img-fluid transicion rounded-pill  bg-" src="/IMG/cloud-plus-fill.svg" width="75px" alt="">
+            </div>
+            <div class="col-2 text-center"></div>
+            <div class="col-4 text-start">
+                <img class="img-fluid transicion rounded-pill bg-" src="/IMG/1976101.svg"  width="79px" alt="">
+            </div>
+        </div>
+
+        <div class="row margen ">
+            <div class="col text-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="75px" height="65px" fill="currentColor" class="img-fluid transicion rounded-pill bi bi-envelope-fill" viewBox="0 0 16 16">
+                    <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
+                </svg>
+                <img class="img-fluid transicion rounded-pill ms-5" src="/IMG/casco.png" width="75px" height="60px" alt="" srcset="">
+            </div>
+        </div>
+    
+        <div class="row justify-content-center margen">
+            <div class="col-10 text-center lead">
+                <p class="">Almacenamiento en SSD | Transferencia mensual ilimitada | Panel de administración (Centro de Datos) | Sistema Web.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- RESPONSIVE -->
+    <section class="bg-crm pb-3 d-block d-md-none">
+        <h3 class="text-light ps-1 pb-2 ">Herramientas Integradas</h3>
+
+        <div class="row margen ">
+            <div class="col text-center">
+                <img class="img-fluid transicion rounded-pill  bg-" src="/IMG/people-fill.svg" width="60px" alt="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="60px" height="55px" fill="currentColor" class="img-fluid ms-5 transicion rounded-pill bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                </svg>
+            </div>
+        </div>
+        
+        <div class="row align-items-center justify-content-evenly margen mt-3 ">
+            <div class="col-3 text-start">
+                <svg xmlns="http://www.w3.org/2000/svg" width="60px" height="50px" fill="currentColor" class="img-fluid transicion rounded-pill bg- bi bi-card-text" viewBox="0 0 16 16">
+                    <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"/>
+                    <path d="M3 5.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 8a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 8zm0 2.5a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5z"/>
+                </svg>
+            </div>
+            <div class="col-1 text-center"></div>
+            <div class="col-3 text-start">
+                <img class="img-fluid transicion rounded-pill bg-" src="/IMG/house-door-fill.svg"  width="60px" alt="">
+            </div>
+        </div>
+        
+        <div class="row align-items-center margen  my-3">
+            <div class="col text-end ms-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="80px" height="65px" fill="currentColor" class="img-fluid transicion rounded-pill  bi bi-journal-text" viewBox="0 0 16 16">
+                    <path d="M5 10.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
+                    <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z"/>
+                    <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z"/>
+                </svg>
+            </div>
+            <div class="col text-center">
+                <img class="" src="/IMG/CRM.png" width="190px" alt="">
+            </div>
+            <div class="col text-start ">
+                <svg xmlns="http://www.w3.org/2000/svg" class="img-fluid transicion rounded-pill icon icon-tabler icon-tabler-tools" width="80px" height="65px" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <path d="M3 21h4l13 -13a1.5 1.5 0 0 0 -4 -4l-13 13v4" />
+                                <line x1="14.5" y1="5.5" x2="18.5" y2="9.5" />
+                                <polyline points="12 8 7 3 3 7 8 12" />
+                                <line x1="7" y1="8" x2="5.5" y2="9.5" />
+                                <polyline points="16 12 21 17 17 21 12 16" />
+                                <line x1="16" y1="17" x2="14.5" y2="18.5" />
+                </svg>
+            </div>
+        </div>
+
+        <div class="row align-items-center justify-content-evenly margen mb-3 ">
+            <div class="col-3 text-start">
+                <img class="img-fluid transicion rounded-pill  bg-" src="/IMG/cloud-plus-fill.svg" width="60px" alt="">
+            </div>
+            <div class="col-1 text-center"></div>
+            <div class="col-3 text-start">
+                <img class="img-fluid transicion rounded-pill bg-" src="/IMG/1976101.svg"  width="60px" alt="">
+            </div>
+        </div>
+
+
+        <div class="row margen ">
+            <div class="col text-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="60px" height="55px" fill="currentColor" class="img-fluid transicion rounded-pill bi bi-envelope-fill" viewBox="0 0 16 16">
+                    <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
+                </svg>
+                <img class="img-fluid transicion rounded-pill ms-5" src="/IMG/casco.png" width="60px" height="60px" alt="" srcset="">
+            </div>
+        </div>
+
+        <div class="row justify-content-center margen">
+            <div class="col-10 text-center fw-5">
+                <p class="">Almacenamiento en SSD | Transferencia mensual ilimitada | Panel de administración (Centro de Datos) | Sistema Web.</p>
+            </div>
+        </div>
+    
+    
+        
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-dark ">
+        <div class="row margen">
+            <div class="navbar bg-dark text-light p-2  shadow-lg">   
+                <div class="col-12 col-md-6 col-lg-3 ps-5 pt-2 ">
+                    <img src="IMG/LogoRaptor.png" class="img-fluid" width="150" alt=""loading="lazy">
+                    <p class="text-secondary" style="font-size: 11px;">©Raptor<br>Todos los derechos reservados - 2021</p>
+                </div>    
+                <!-- ENLACES -->
+                <div class="col-12 col-md-6 col-lg-2 ps-5 pt-2">
+                    <h5>Enlaces</h5>
+                    <a href="index.php" class="link-secondary text-decoration-none">Inicio</a><br>       
+                    <a href="ERP.php" class="link-secondary text-decoration-none">ERP</a><br>  
+                    <a href="CRM.php" class="link-secondary text-decoration-none">CRM</a><br>  
+                    <a href="Clientes.php" class="link-secondary text-decoration-none">Clientes</a><br>  
+                </div>
+                <!-- CONTACTO -->
+                <div class="col-12 col-md-6 col-lg-4 ps-5 pt-2">
+                    <h5>Contácto</h5>
+                    <p class=" text-secondary" > 
+                    <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-info-circle-fill" viewBox="0 0 16 16">
+                        <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+                    </svg>
+                        Atencion a Clientes
+                    </p>
+                    <!-- TELEFONO -->
+                    <div class="col-auto d-inline-flex">
+                        <p class=" text-secondary">
+                            <a class="text-decoration-none link-secondary" href="http://wa.link/rsjw0t">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                            </svg>
+                            (694) 110-2012</a>
+                        </p> 
+                    </div>            
+                    <!-- CORREO -->
+                    <p class="text-secondary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                            <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
+                        </svg>
+                        <a class="text-decoration-none link-secondary" href="mailto:info@rcconsultora.com.mx">ventas@grupocom.com.mx</a>
+                    </p>
+                    <!-- UBICACION -->
+                    <p class="text-secondary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                        </svg>
+                        <a href="https://goo.gl/maps/Jpm4ZjA99tZ74a646" class="link-secondary">Aquiles Serdán 1007-int. 3, Centro, 82000 Mazatlán, Sin.</a> 
+                    </p>
+                </div>
+                <!-- SIGUENOS -->
+                <div class="col-12 col-md-6  col-lg-3  text-end pe-5 pt-2">
+                    <h5>Síguenos</h5>
+                    <p class=" text-secondary">
+                        <a class="link-secondary" href="https://www.facebook.com/"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                        </svg></a>
+                        <a class="link-secondary" href="https://www.instagram.com/"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                        </svg></a>
+                        <a class="link-secondary" href="https://twitter.com/?lang=es"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                            <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                        </svg></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<script src="./JS/app.js"></script>
+<script src="BOOTSTRAP/js/bootstrap.bundle.js"></script>    
 </body>
 </html>
