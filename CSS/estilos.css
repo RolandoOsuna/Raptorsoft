@@ -154,6 +154,31 @@ transition: 0.4s linear;
     box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
 } */
 /* HEADER */
+.boton-flotante{
+    position: fixed;
+    width: 70px;
+    height: 70px;
+    border-radius: 50rem;
+    z-index: 100;
+    bottom: 0;
+    right: 0;
+    margin: 0 15px 15px 0;
+}
+.bg-boton-whats{
+    background: rgba(37, 211, 101, 0.644);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 8.5px );
+    -webkit-backdrop-filter: blur( 10.5px );
+    border-radius: 10rem;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );    
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+
+}
+
 .bg-header{
     background-image: url(../IMG/Raptor-header-responsive.jpg);
     background-position: center;
