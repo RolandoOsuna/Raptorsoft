@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="CSS/bootstrap.min.css">
     <link rel="stylesheet" href="CSS/estilos.css">
     <link rel="stylesheet" href="CSS/Normalize.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>CRM</title>
 </head>
 <body>
@@ -67,7 +68,7 @@
                 </div>
             </nav>
 
-            <img class="img-fluid logos" src="IMG/CRM.png" width="200px">
+            <img class="img-fluid logos " src="IMG/CRM.png ">
             <div class="container">
                 <div class="row text-light justify-content-evenly p-header">
                     <div class="col">
@@ -87,15 +88,15 @@
         <div class="row my-3 align-items-end">
             <div class="col-12 col-lg-6 pe-lg-3">
                 <h1 class="gradient-text">CRM</h1>
-                <p class="fs-5">La más amplia gama de herramientas para ayudarte a optimizar tus actividades Ahorrandote tiempo y dinero.</p>
-                <ul>
-                    <li class=""><span class="fw-bold">Raptorsoft</span> es una poderosa herramienta para impulsar el crecimiento, rentabilidad y competitividad de tu empresa inmobiliaria.</li>
-                    <li class=""><span class="fw-bold">Raptorsoft</span> ideal para elevar la rentabilidad de tu empresa y cumplir con las tareas diarias.</li>
-                    <li class="">¿Tu negocio requiere de un sistema versátil y amigable? <span class="fw-bold">Raptorsoft</span> puede adaptarse a los requerimientos de tu empresa.</li>
+                <p class="fs-5" data-aos="fade-right">La más amplia gama de herramientas para ayudarte a optimizar tus actividades Ahorrandote tiempo y dinero.</p>
+                <ul >
+                    <li data-aos="fade-right"><span class="fw-bold">Raptorsoft</span> es una poderosa herramienta para impulsar el crecimiento, rentabilidad y competitividad de tu empresa inmobiliaria.</li>
+                    <li data-aos="fade-right"><span class="fw-bold">Raptorsoft</span> ideal para elevar la rentabilidad de tu empresa y cumplir con las tareas diarias.</li>
+                    <li data-aos="fade-right">¿Tu negocio requiere de un sistema versátil y amigable? <span class="fw-bold">Raptorsoft</span> puede adaptarse a los requerimientos de tu empresa.</li>
                 </ul>
             </div>
             <div class="col-12 col-lg-6">
-                <img src="IMG/Section-inmobiliaria.jpg" class="img-fluid">
+                <img src="IMG/Section-inmobiliaria.jpg" class="img-fluid thumbnail-right">
             </div>
         </div>
     </section>
@@ -564,6 +565,20 @@
     </footer>
 
 <script src="./JS/app.js"></script>
-<script src="BOOTSTRAP/js/bootstrap.bundle.js"></script>    
+<script src="BOOTSTRAP/js/bootstrap.bundle.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
+<script>
+    var image = document.getElementsByClassName('thumbnail');
+    new simpleParallax(image);
+</script>
+<script>
+    var image = document.getElementsByClassName('thumbnail-right');
+    new simpleParallax(image, {
+    orientation: 'right'});
+</script>
+<script>
+    AOS.init();
+</script>
 </body>
 </html>

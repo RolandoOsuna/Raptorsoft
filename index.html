@@ -6,7 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="CSS/estilos.css">
   <link rel="stylesheet" href="CSS/bootstrap.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
   <title>Raptorsoft</title>
 </head>
 <body>
@@ -40,7 +42,7 @@
     </div>
     <div class="d-md-flex justify-content-evenly mx-5 mt-5 m-md-0">
         <!-- HOME -->
-        <div class="card-planes text-center mt-4 m-md-0 home">
+        <div class="card-planes text-center mt-4 m-md-0 home" data-aos="fade-up">
             <h1 class="">Home</h1>
             <h3 class="">$4,999.00 <br>MXN</h3>
             <h5 class="">pago anual <br> $1,400</h5>
@@ -57,7 +59,7 @@
             </div>
         </div>
         <!-- PYME -->
-        <div class="card-planes text-center mt-4 m-md-0 pyme">
+        <div class="card-planes text-center mt-4 m-md-0 pyme" data-aos="fade-down">
             <h1 class="">PYME</h1>
             <h3 class="">$8,999.00 <br>MXN</h3>
             <h5 class="">pago anual <br> $1,800</h5>
@@ -77,7 +79,7 @@
             </div>
         </div>
         <!-- Profesional -->
-        <div class="card-planes text-center mt-4 m-md-0 profesional">
+        <div class="card-planes text-center mt-4 m-md-0 profesional" data-aos="fade-up">
             <h1 class="">Profesional</h1>
             <h3 class="">$11,999.00 <br>MXN</h3>
             <h5 class="">pago anual <br> $2,500</h5>
@@ -97,7 +99,7 @@
             </div>
         </div>
         <!-- Ultimate -->
-        <div class="card-planes text-center mt-4 m-md-0 ultimate">
+        <div class="card-planes text-center mt-4 m-md-0 ultimate" data-aos="fade-down">
             <h1 class="">Ultimate</h1>
             <h3 class="">$4,999.00 <br>MXN</h3>
             <h5 class="">pago anual <br> $1,400</h5>
@@ -130,13 +132,13 @@
       <img class="imagen thumbnail" src="media/section-1.jpg" loading="lazy">
       <div class="col-12 col-lg-6">
         <div class="cuadro-azul "></div>
-        <div class="card-section shadow p-4">
+        <div class="card-section shadow p-4" data-aos="zoom-in-right">
           <h1 class="lead text-black-50 text-uppercase">Lorem, ipsum dolor.</h1>
           <p class="display-5 pe-3">Consectetur adipisicing elit. Lorem, ipsum dolor.</p>
         </div>
       </div>
       <div class="col-12 col-lg-6">
-        <div class="card-testimonial shadow">
+        <div class="card-testimonial shadow" data-aos="zoom-in">
           <img class="img-fluid m-3" src="media/Icono-testimonial.png" width="100px"loading="lazy">
           <p class="fs-4 px-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime laboriosam enim quam magnam, atque deserunt odio saepe, nostrum in perspiciatis a? Vel sequi praesentium aperiam necessitatibus quibusdam nihil. Dolor, enim.</p>
           <a type="button" class="btn btn-lg btn-dark ms-3 mt-3">Ver Más</a>
@@ -149,8 +151,8 @@
   <section class="bg-section-crm">
     <div class="container">
       <div class="row my-5">
-        <aside class="col-12 col-md-6 img-crm-1">
-          <img class="img-fluid" src="media/img-crm-1.jpg" loading="lazy">
+        <aside class="col-12 col-md-6 img-crm-1" data-aos="fade-down-right">
+          <img class="img-fluid thumbnail-right" src="media/img-crm-1.jpg" loading="lazy">
           <div class="rectang-img-crm-1 text-white ps-5 pt-2">
             <span class="h1 ">CRM</span><br>
             <span class="fs-4 ">Inmobiliaria</span>
@@ -165,7 +167,7 @@
                 </p>
                 <a type="button" class="btn btn-dark ">Ver Más</a>
             </div>
-            <div class="col-12  img-crm-2" >
+            <div class="col-12  img-crm-2" data-aos="fade-left">
                 <img class="img-fluid " src="media/img-crm-2.jpg"loading="lazy">
                 <div class="rectang-img-crm-2"></div>
             </div>
@@ -187,14 +189,14 @@
                 </p>
                 <a type="button" class="btn btn-dark ">Ver Más</a>
             </div>
-            <div class="col-12 text-end img-crm-2" >
+            <div class="col-12 text-end img-crm-2" data-aos="fade-right">
                 <img class="img-fluid " src="media/img-erp-2.jpg"loading="lazy">
                 <div class="rectang-img-erp-2"></div>
             </div>
           </div>
         </div>
         <aside class="col-12 col-md-6 img-crm-1 ">
-          <img class="img-fluid" src="media/img-erp-1.jpeg" loading="lazy">
+          <img class="img-fluid thumbnail-right" src="media/img-erp-1.jpeg" data-aos="fade-down-left" loading="lazy">
           <div class="rectang-img-crm-1 text-white text-end pe-5 pt-2">
             <span class="h1 ">ERP</span><br>
             <span class="fs-4 ">Tu negocio</span>
@@ -293,7 +295,19 @@
   </footer>
 <script src="./JS/app.js"></script>
 <script src="BOOTSTRAP/js/bootstrap.bundle.js"></script>
-
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
+<script>
+  var image = document.getElementsByClassName('thumbnail');
+  new simpleParallax(image);
+</script>
+<script>
+  var image = document.getElementsByClassName('thumbnail-right');
+  new simpleParallax(image, {
+	orientation: 'right'});
+</script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>

@@ -652,8 +652,8 @@ transition: 0.4s linear;
     margin-bottom: 0px;
 }
 .transicion-desarrollo{
-    -webkit-transition: 0.4s linear;
-    transition: 0.4s linear;
+    -webkit-transition: 1s ease-in;
+    transition: 1s ease-in;
 }
 .transicion-desarrollo:hover{
      background: rgb(117,127,154);
@@ -686,8 +686,8 @@ transition: 0.4s linear;
     /* margin-bottom:40px; */
 }
 .transicion-gestion{
-    -webkit-transition: 0.4s linear;
-    transition: 0.4s linear;
+    -webkit-transition: 1s ease-in;
+    transition: 1s ease-in;
 }
 .transicion-gestion:hover{
     background: rgb(189,195,199);
@@ -715,8 +715,8 @@ transition: 0.4s linear;
     margin-bottom: 0px;
 }
 .transicion-seguimiento{
-    -webkit-transition: 0.4s linear;
-    transition: 0.4s linear;
+    -webkit-transition: 1s ease-in;
+    transition: 1s ease-in;
 }
 .transicion-seguimiento:hover{
     background: rgb(55,59,68);
@@ -747,8 +747,8 @@ transition: 0.4s linear;
     margin-bottom: 0;
 }
 .transicion-transparencia{
-    -webkit-transition: 0.4s linear;
-    transition: 0.4s linear;
+    -webkit-transition: 1s ease-in;
+    transition: 1s ease-in;
 }
 .transicion-transparencia:hover{
     background: #ADA996;  /* fallback for old browsers */

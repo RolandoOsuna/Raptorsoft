@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="CSS/bootstrap.min.css">
     <link rel="stylesheet" href="CSS/estilos.css">
     <link rel="stylesheet" href="CSS/Normalize.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>ERP</title>
 </head>
 <body>
@@ -106,7 +107,7 @@
     <div class="rectang-productos-versiones"></div>
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-6" data-aos="fade-right">
                     <img class="img-fluid" src="IMG/Servicios.jpg">
                     <p class="display-4 text-center">Productos y Versiones</p>
                 </div>
@@ -121,21 +122,21 @@
                 </div>
                 <div class="col-12 col-md-6">
                     <ul class="ps-5 ms-lg-5 fs-5" style="list-style-type: square;">
-                        <li >Cremerias®</a> </li>
-                        <li >Panaderías®</a> </li>
-                        <li >Escuela primaria®</li>
-                        <li >Abarroteras®</a> </li>
-                        <li >Fruterías®</a> </li>
-                        <li >Changarros®</a> </li>
-                        <li >Toldos y Persianas®</a> </li>
-                        <li >Carnicerías®</li>
-                        <li >Comercializadoras®</li>
-                        <li >Mueblerías®</li>
-                        <li >Distribuidoras®</li>
-                        <li >Ferreterías®</li>
-                        <li >Cosméticos®</li>
-                        <li >Barbería®</li>
-                        <li >RestBar®</li>
+                        <li data-aos="fade-left">Cremerias®</a> </li>
+                        <li data-aos="fade-left">Panaderías®</a> </li>
+                        <li data-aos="fade-left">Escuela primaria®</li>
+                        <li data-aos="fade-left">Abarroteras®</a> </li>
+                        <li data-aos="fade-left">Fruterías®</a> </li>
+                        <li data-aos="fade-left">Changarros®</a> </li>
+                        <li data-aos="fade-left">Toldos y Persianas®</a> </li>
+                        <li data-aos="fade-left">Carnicerías®</li>
+                        <li data-aos="fade-left">Comercializadoras®</li>
+                        <li data-aos="fade-left">Mueblerías®</li>
+                        <li data-aos="fade-left">Distribuidoras®</li>
+                        <li data-aos="fade-left">Ferreterías®</li>
+                        <li data-aos="fade-left">Cosméticos®</li>
+                        <li data-aos="fade-left">Barbería®</li>
+                        <li data-aos="fade-left">RestBar®</li>
                     </ul>
                 </div>
             </div>
@@ -147,7 +148,7 @@
         <div class="container">
             <div class="row d-flex justify-content-around">
                 <!-- MULTIEMPRESA -->
-                <div class="col-12 col-md-6 col-lg-3 transicion-cards mb-md-2">
+                <div class="col-12 col-md-6 col-lg-3 transicion-cards mb-md-2" data-aos="fade-down">
                     <div class="p-1 shadow bg-card-desarrollo transicion-desarrollo">
                         <div class="col text-end">
                             <img class="img-fluid text-end m-3" src="media/img-desarrollo.png" width="50px" loading="lazy">
@@ -169,7 +170,7 @@
                     </div>
                 </div>
                 <!-- ENTERPRISE -->
-                <div class="col-12 col-md-6 col-lg-3 transicion-cards my-3 m-md-0">
+                <div class="col-12 col-md-6 col-lg-3 transicion-cards my-3 m-md-0" data-aos="fade-up">
                     <div class="p-1 shadow bg-card-gestion transicion-gestion">
                         <div class="col text-end">
                             <img class="img-fluid text-end m-3" src="media/img-gestion.png" width="50px" loading="lazy">
@@ -191,7 +192,7 @@
                     </div>
                 </div>
                 <!-- QUICK POINT -->
-                <div class="col-12 col-md-6 col-lg-3   transicion-cards">
+                <div class="col-12 col-md-6 col-lg-3   transicion-cards" data-aos="fade-down">
                     <div class="p-1 shadow bg-card-seguimiento transicion-seguimiento">
                         <div class="col text-end">
                             <img class="img-fluid text-end m-3" src="media/img-seguimiento.png" width="50px" loading="lazy">
@@ -212,7 +213,7 @@
                     </div>
                 </div>
                 <!-- FACTURACION ELECTRONICA -->
-                <div class="col-12 col-md-6 col-lg-3 transicion-cards mt-3 m-md-0">
+                <div class="col-12 col-md-6 col-lg-3 transicion-cards mt-3 m-md-0" data-aos="fade-up">
                     <div class="p-1 shadow bg-card-transparencia transicion-transparencia">
                         <div class="col text-end">
                             <img class="img-fluid text-end m-3" src="media/img-transparencia.png" width="50px" loading="lazy">
@@ -309,6 +310,20 @@
 
 
 <script src="./JS/app.js"></script>
-<script src="BOOTSTRAP/js/bootstrap.bundle.js"></script>    
+<script src="BOOTSTRAP/js/bootstrap.bundle.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
+<script>
+    var image = document.getElementsByClassName('thumbnail');
+    new simpleParallax(image);
+</script>
+<script>
+    var image = document.getElementsByClassName('thumbnail-right');
+    new simpleParallax(image, {
+    orientation: 'right'});
+</script>
+<script>
+    AOS.init();
+</script>
 </body>
 </html>

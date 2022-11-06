@@ -7,10 +7,12 @@
     <link rel="stylesheet" href="CSS/bootstrap.min.css">
     <link rel="stylesheet" href="CSS/estilos.css">
     <link rel="stylesheet" href="CSS/Normalize.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <title>Clientes</title>
 </head>
 <body>
-    <header class="header-atencionclientes">
+    <header class="header-atencionclientes ">
         <!-- NAV -->
         <nav class="row margen py-2 bg-navbar navbar d-none d-lg-block container-fluid position-absolute" style="z-index: 1;">
             <div class="row justify-content-end align-items-center ">
@@ -72,7 +74,7 @@
             <p class="h2  text-center" style="color: #914623 ;">¿Tienes dudas?<br>
             <span class="h3" style="color: #914623 ;">Nosotros te Asesoramos</span></p>
             <p class="fs-5 text-center">Estamos haciendo nuestra parte para apoyar a nuestros pequeños, medianos y grandes clientes con lo que necesitan.</p>
-            <p class="fs-1 text-center">
+            <p class="fs-1 text-center" data-aos="zoom-in">
                 ¡Llámanos!<br>
                 <a class="text-decoration-none link-secondary" href="http://wa.link/rsjw0t">
                 <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
@@ -152,6 +154,20 @@
     </footer>
 
 <script src="./JS/app.js"></script>
-<script src="BOOTSTRAP/js/bootstrap.bundle.js"></script>    
+<script src="BOOTSTRAP/js/bootstrap.bundle.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
+<script>
+    var image = document.getElementsByClassName('thumbnail');
+    new simpleParallax(image);
+</script>
+<script>
+    var image = document.getElementsByClassName('thumbnail-right');
+    new simpleParallax(image, {
+    orientation: 'right'});
+</script>
+<script>
+    AOS.init();
+</script>
 </body>
 </html>
